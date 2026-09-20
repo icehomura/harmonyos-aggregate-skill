@@ -1,0 +1,229 @@
+# HarmonyOS 沉浸光感技能包 — 机制定义
+#
+# 本文件描述技能包的结构、懒加载路由与同步机制，供 AI 代理解析。
+# 遵循 Anthropic Skill 规范（SKILL.md frontmatter 为唯一触发入口），
+# 本文件是其上的「包内路由与依赖」扩展描述，不替代 SKILL.md。
+version: 1
+
+skill:
+  name: harmonyos-aggregate-skill
+  entrypoint: SKILL.md
+  description: >-
+    HarmonyOS 6/7（API 20–26）沉浸光感应用开发脚手架。
+  apiBaseline:
+    compatible: "6.0.0(20)"   # 最低 API 20
+    target: "26.0.0"          # 目标 API 26（沉浸光感正式版）
+    hdsFloatingTabs: 23       # HDS 浮动页签起点
+    uiMaterial: 26            # ArkUI 沉浸光感起点
+
+# ───────────────────────────────────────────────────────────
+# 渐进式披露（Progressive Disclosure）
+# 三级加载：metadata 常驻 → SKILL.md 触发时载入 → 分技能/文档按需载入
+# ───────────────────────────────────────────────────────────
+loading:
+  mode: lazy
+  levels:
+    - level: 0
+      what: frontmatter（name + description）
+      when: always
+      cost: ~100 words
+    - level: 1
+      what: SKILL.md 正文
+      when: skill triggered
+      cost: <5k words
+    - level: 2
+      what: references/ 下的分技能与文档
+      when: 任务命中该领域时按 routing 表载入
+      cost: 按需
+
+# ───────────────────────────────────────────────────────────
+# 路由表：任务 → 应载入的分技能
+# AI 必须先命中 routing，再读对应目录，不要一次性全加载
+# ───────────────────────────────────────────────────────────
+routing:
+  - match: [沉浸光感, 材质, material, uiMaterial, hdsMaterial, 磨砂, 通透, 光感]
+    load: references/immersive-material/
+    primary: references/immersive-material/README.md
+  - match: [安全区, 刘海, 状态栏, 避让, 沉浸式, AvoidArea, 挖孔]
+    load: references/immersive-material/safe-area.md
+  - match: [新建工程, 架构, 目录结构, 分层, scaffold, 初始化, 配置]
+    load: references/project-architecture/README.md
+    section: "§1–5 版本基线 / 目录分层 / 最小文件清单 / 配置文件全文"
+  - match: [路由, Navigation, NavPathStack, 页面跳转]
+    load: references/project-architecture/README.md
+    section: "§6–7 路由方案与路由表"
+  # 注意：YAML 中 @ 是保留字符，以 @ 开头的数组项必须加引号
+  - match: [状态管理, ArkUI V2, "@Local", "@Param", "@Trace", "@ObservedV2"]
+    load: references/project-architecture/README.md
+    section: "§9 ArkUI V2 状态管理约定"
+  - match: [Service, 单例, 持久化, Preferences]
+    load: references/project-architecture/README.md
+    section: "§8 Service 单例标准模板"
+  - match: [导航条, 页签, tabs, 底部导航, 胶囊, 迷你栏, miniBar, 播放控制, 形变]
+    load: references/components/navigation.md
+  - match: [组件总览, 跨组件约定, 材质选型, 证据分级]
+    load: references/components/README.md
+  - match: [抽屉, 半模态, bindSheet, 弹层, sheet]
+    load: references/components/sheet.md
+  - match: [圆形按钮, 更多按钮, FAB, 图标按钮]
+    load: references/components/circle-button.md
+  - match: [列表, LazyForEach, 网格, 卡片, 骨架屏, 下拉刷新]
+    load: references/components/lists.md
+  - match: [主题, 深浅色, 暗色, 主题色, 外观, 材质档位, 启动页]
+    load: references/theming/
+    primary: references/theming/README.md
+  - match: [背景图, 蒙层, 阅读背景, 模糊度]
+    load: references/theming/background-image.md
+  - match: [查文档, 官方文档, API 参考, 用法, 文档检索]
+    action: run scripts/search-docs.mjs
+  - match: [官方 skill, 安装 skill, 找 skill, 官方技能]
+    action: run scripts/search-skills.mjs
+  - match: [更新文档, 同步文档, 重建索引, 更新知识库, 索引过期, docs sync]
+    load: skills/harmonyos-docs-sync/SKILL.md
+  - match: [报错, 不生效, 排查, 故障, 失效]
+    load: skills/harmonyos-docs-sync/SKILL.md
+    section: "§六 故障排查"
+  - match: [规范, 数值, 圆角, 间距, 字号, 热区, dp, vp]
+    load: references/design-specs.md
+  - match: [新建工程, 模板, 脚手架, 骨架]
+    load: assets/templates/
+
+# ───────────────────────────────────────────────────────────
+# 分技能清单（每个自包含，可独立载入）
+# ───────────────────────────────────────────────────────────
+subskills:
+  - id: immersive-material
+    path: references/immersive-material/
+    title: 沉浸光感材质体系
+    covers: [材质档位, ImmersiveStyle, uiMaterial, hdsMaterial, 生效范围, 功耗约束, 反模式]
+    dependencies: [design-specs]
+  - id: project-architecture
+    path: references/project-architecture/
+    title: 工程架构与骨架
+    covers: [目录分层, 构建配置, 路由, Service 单例, 状态管理, ArkTS 严格模式]
+  - id: components
+    path: references/components/
+    title: 组件与页面模式
+    covers: [导航条, 页签, 半模态, 圆形按钮, 列表, 骨架屏]
+    dependencies: [immersive-material, design-specs]
+  - id: theming
+    path: references/theming/
+    title: 主题与外观
+    covers: [主题模式, 材质档位, 主题色, 启动页, 深浅色, 背景图]
+    dependencies: [immersive-material]
+
+# 附带技能：可独立安装的维护型技能
+companionSkills:
+  - id: harmonyos-docs-sync
+    path: skills/harmonyos-docs-sync/SKILL.md
+    title: 文档同步与索引重建
+    standalone: true            # 可单独安装到 ~/.claude/skills/
+    covers: [同步官方文档, 重建索引, 官方 Skill 下载, 单篇抓取, 图片链接刷新, 故障排查]
+    triggers: [更新文档, 同步文档, 重建索引, 更新知识库, 官方文档检索, 索引过期]
+
+# ───────────────────────────────────────────────────────────
+# 知识库（本地检索副本）
+#
+# 原始 Markdown / Skill 目录是**本地构建中间产物**，被 .gitignore 忽略
+# （4 万+ 文件直接入库会严重碎片化）。仓库只提交构建后的 .db（Git LFS 管理）。
+# ───────────────────────────────────────────────────────────
+knowledgeBases:
+  - id: huawei-docs
+    db: references/huawei-docs.db
+    files: references/huawei-docs/          # 中间产物，不入库
+    origin: https://developer.huawei.com/consumer/cn/
+    count: 40651
+    sizeMB: 172
+    bodyEncoding: gzip
+    query: scripts/search-docs.mjs
+    sync: scripts/sync-huawei-docs.mjs
+    build: scripts/build-doc-index.mjs
+    note: 图片为签名 URL，约 24h 过期；用 fetch-huawei-doc.mjs 刷新链接
+  - id: huawei-skills
+    db: references/huawei-skills.db
+    files: references/huawei-skills/        # 中间产物，不入库
+    origin: https://matrix.openharmony.cn/api/registry/skill
+    count: 144
+    files_count: 7538
+    sizeMB: 32
+    query: scripts/search-skills.mjs
+    sync: scripts/sync-huawei-skills.mjs
+    build: scripts/build-skill-index.mjs
+    note: 每个 Skill 含 SKILL.md 与 references/，可用 --read 读完整文本
+  - id: deveco-docs
+    path: references/deveco-docs/           # 中间产物，不入库
+    origin: npm @deveco/deveco-cli (docs.zip)
+    note: DevEco 工具链官方文档
+
+# ───────────────────────────────────────────────────────────
+# 同步机制：AI 可自行调用脚本全量更新
+# ───────────────────────────────────────────────────────────
+sync:
+  scripts:
+    - id: huawei-docs
+      sync: node scripts/sync-huawei-docs.mjs
+      build: node scripts/build-doc-index.mjs
+      source: developer.huawei.com sitemap + documentPortal API
+      incremental: true          # 已存在文件默认跳过
+      resume: true               # 失败项落 .cache/failed.jsonl，重跑续传
+      options:
+        --list: 只统计不下载
+        --catalog <name>: 只更某个板块
+        --limit <n>: 限量试跑
+        --force: 忽略已存在，全部重抓
+        --concurrency <n>: 并发（默认 10，实测可到 12）
+      buildOptions:
+        --meta-only: 只更新元数据，不重建全文索引（秒级）
+        --sample <n>: 索引采样字符数（默认 1500）
+      measured: { count: 40651, syncSize: "276 MB", syncDuration: "9m15s", buildDuration: "33m", dbSizeMB: 172, failures: 0 }
+    - id: huawei-skills
+      sync: node scripts/sync-huawei-skills.mjs
+      build: node scripts/build-skill-index.mjs
+      source: matrix.openharmony.cn skill registry
+      incremental: true          # 按 sha256 比对，未变则跳过
+      options:
+        --list: 列出分类
+        --find <kw>: 关键词检索
+        --tag <name>: 指定分类
+        --download: 执行下载
+        --force: 强制重下
+      measured: { totalRegistry: 4130, synced: 144, files: 7538, dbSizeMB: 32 }
+  api:
+    # 官方接口细节（供脚本维护者参考）
+    tags:
+      method: POST
+      url: "https://matrix.openharmony.cn/api/model_base/model/tags?serviceType=skill"
+    list:
+      method: POST
+      url: "https://matrix.openharmony.cn/api/registry/skill/skills"
+      body: "{ pageNum, pageSize, tagIds[], keyword }"
+    checksum:
+      method: GET
+      url: "https://matrix.openharmony.cn/api/registry/skill/{name}/checksum"
+    install:
+      method: GET
+      url: "https://matrix.openharmony.cn/api/registry/skill/{name}/install?format=zip"
+      note: "302 跳转到华为 OBS"
+    docs:
+      method: POST
+      url: "https://svc-drcn.developer.huawei.com/community/servlet/consumer/cn/documentPortal/getDocumentById"
+      body: "{ objectId, catalogName, language: 'cn' }"
+
+# ───────────────────────────────────────────────────────────
+# 约束（AI 必须遵守）
+# ───────────────────────────────────────────────────────────
+constraints:
+  verification:
+    - 改 .ets 前先读对应分技能，不要凭记忆写 API
+    - 改完先静态检查（arkts 语法）再增量构建，最后设备验证
+    - 构建通过不等于设备验证通过
+  api:
+    - 版本分流必须用 deviceInfo 判断，不能用编译期版本
+    - 官方 API 高频误记：backgroundMaterial（不存在）、HdsMaterial（应为小写 hdsMaterial）
+  material:
+    - systemMaterial 必须放在其他样式属性之后
+    - 设材质后不得再设 backgroundColor/backgroundBlurStyle/边框
+    - 同一子树只设一次材质，禁止嵌套
+    - 材质自带模糊，不得叠加 backgroundBlurStyle
+  sourceOfTruth:
+    - 规范数值必须来自官方文档，未证实的数值要显式标记

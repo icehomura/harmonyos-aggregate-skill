@@ -1,0 +1,1508 @@
+{
+ "syncedAt": "2026-09-20T03:05:06.101Z",
+ "skills": {
+  "6a215e9b8428f219b71f84a2": {
+   "name": "hmos-account-kit-quicklogin-client",
+   "dir": "references/huawei-skills/hmos-account-kit-quicklogin-client",
+   "tags": [
+    "HMOS",
+    "鸿蒙开放能力"
+   ],
+   "description": "基于 HarmonyOS Account Kit 提供华为账号一键登录客户端接入指引，实现获取匿名手机号接口与华为账号一键登录组件集成。支持获取匿名手机号后一键登录页面跳转、失败Toast提示等。在用户提及\"华为账号一键登录\"、\"接入华为账号一键登录\"、\"Account Kit一键登录\"或要求实现华为账号一键登录功能时使用（当前仅支持原生ArkTS框架）原始仓库：https://gitcode.com/HarmonyOS_Skills/harmonyos-agent-skills",
+   "size": 34872,
+   "sha256": "c3458bbbcfa99030684eea93cdd651c64ff538b9549e22f312e500b710384e8b"
+  },
+  "69e1dea2c4357076d28ecb48": {
+   "name": "hmos-arkui-develop-skill",
+   "dir": "references/huawei-skills/hmos-arkui-develop-skill",
+   "tags": [
+    "ArkUI",
+    "HMOS"
+   ],
+   "description": "编写、审查或改进ArkUI代码，遵循状态管理(V1/V2)、组件结构、布局选择、性能优化的最佳实践。触发场景：构建新页面或组件、实现状态管理、开发布局(列表/网格/瀑布流)、添加动画手势、搭建导航路由、处理弹窗模态、MVVM架构设计、V1迁移V2。原始仓库：https://gitcode.com/HarmonyOS_Skills/harmonyos-agent-skills",
+   "size": 114085,
+   "sha256": "3883cfdfaa3635a63758eabd12acd8e78afae90d45c0cfe7705a2a141bf79196"
+  },
+  "69e2065a23e9807a198f27ec": {
+   "name": "hmos-arkts-syntax-checker",
+   "dir": "references/huawei-skills/hmos-arkts-syntax-checker",
+   "tags": [
+    "HMOS",
+    "ArkTS"
+   ],
+   "description": "检查并修复 HarmonyOS 项目的 ArkTS 语法错误，自动化构建项目。当需要编译项目、修复编译错误、生成 HAP/App 产物时使用。提供静态语法检查、错误自动修复、循环构建直到成功的完整工作流程。支持错误优先级分类（P0/P1/P2）、最大重试机制、构建产物自动定位。原始仓库：https://gitcode.com/HarmonyOS_Skills/harmonyos-agent-skills",
+   "size": 8788,
+   "sha256": "65dc6a69be5d64d063f50a1ca29fbf5fce3b61453dcf5385b9fa6499497a8e2d"
+  },
+  "69e1de48c4357076d28ecb45": {
+   "name": "hmos-arkts-knowledge-retriever",
+   "dir": "references/huawei-skills/hmos-arkts-knowledge-retriever",
+   "tags": [
+    "ArkTS",
+    "HMOS"
+   ],
+   "description": "检索 ArkTS 语言指南文档，为代码开发、审查和调试提供语法参考。当需要查找 ArkTS 语法规则、库使用方法或代码示例时使用。提供基于索引的高效检索和可追溯的文档引用。  原始仓库：https://gitcode.com/HarmonyOS_Skills/harmonyos-agent-skills",
+   "size": 9757054,
+   "sha256": "d22ee8e53fa6ea26319f95e636e0ca31655400a9b0b5b20c39aa28b1c5e34a24"
+  },
+  "69e1df16a8edf53fea151e71": {
+   "name": "hmos-arkui-statemgt-migration",
+   "dir": "references/huawei-skills/hmos-arkui-statemgt-migration",
+   "tags": [
+    "ArkUI",
+    "HMOS"
+   ],
+   "description": "帮助开发者将ArkUI状态管理从V1迁移到V2。触发场景：(1) V1项目升级到V2；(2) 迁移@Component/@State/@Prop/@Link/@Observed/@ObjectLink/@Provide/@Consume/@Watch/@Reusable装饰器；(3) 迁移LocalStorage/AppStorage/PersistentStorage/Environment应用级状态；(4) 将ForEach/LazyForEach迁移到Repeat；(5) 解决animateTo在V2中的兼容问题；(6) 处理V1与V2混用场景；(7) 询问V1和V2装饰器对应关系或差异。原始仓库：https://gitcode.com/HarmonyOS_Skills/harmonyos-agent-skills",
+   "size": 30893,
+   "sha256": "100742d1a1d4451f331f8ecb49834a0c1d16783c50fef6dc74065eab3892a4c1"
+  },
+  "6a15c3d845371b3a70b81127": {
+   "name": "hmos-multidevice-scenario-entry",
+   "dir": "references/huawei-skills/hmos-multidevice-scenario-entry",
+   "tags": [
+    "HMOS"
+   ],
+   "description": "Entry skill for HarmonyOS multi-device adaptation. Use when the task broadly concerns HarmonyOS multi-device adaptation, the task involves foldable device verification or when the correct scenario is still unclear. This skill classifies the request by phase and scenario type, then routes to one or more scenario files for screen and window size, fold state, avoid areas, interaction methods, natural orientation, or hardware access. Original repository：https://gitcode.com/HarmonyOS_Skills/harmonyos-agent-skills",
+   "size": 24517,
+   "sha256": "b6b5a51b31692c4d6766b3c5780b30197b71c055371faae5034e05eb66db2d12"
+  },
+  "69e20689eb33f23f522ca14c": {
+   "name": "hmos-arkts-deprecated-interface-checker",
+   "dir": "references/huawei-skills/hmos-arkts-deprecated-interface-checker",
+   "tags": [
+    "HMOS",
+    "ArkTS"
+   ],
+   "description": "检查 HarmonyOS 项目中的废弃 SDK 接口并提供修复建议。当需要清理废弃 API、升级 API 版本、优化代码质量或进行静态语法检查时使用。提供详细的迁移方案、修复优先级分类和代码示例。原始仓库：https://gitcode.com/HarmonyOS_Skills/harmonyos-agent-skills",
+   "size": 6499,
+   "sha256": "547b63d62817925ab49e49b3e5977380aba12cf87067b4122d35d42a7e0fd8fb"
+  },
+  "6a210a26836052485d3fe6be": {
+   "name": "hmos-jscrash-analysis",
+   "dir": "references/huawei-skills/hmos-jscrash-analysis",
+   "tags": [
+    "HMOS",
+    "DFX"
+   ],
+   "description": "分析 HarmonyOS/OpenHarmony 应用的 JS Crash（ArkTS/JS 层闪退）faultlogger 日志，按 Reason、Error name、Error message、Error code 和 Stacktrace 定位根因并给出修复建议。原始仓库：https://gitcode.com/HarmonyOS_Skills/harmonyos-agent-skills",
+   "size": 89050,
+   "sha256": "24b1748ab8856ed97e91b545caef28394611aa710cda47a780b2ce5f71b310a6"
+  },
+  "6a10873ea4482462bc6264fa": {
+   "name": "hmos-memleak-analysis",
+   "dir": "references/huawei-skills/hmos-memleak-analysis",
+   "tags": [
+    "HMOS"
+   ],
+   "description": "Analyzes HarmonyOS source code (ArkTS, JS, C/C++) to detect memory leaks.Use when (1) Performing static code analysis to catch potential leaks before deployment, (2) Reviewing PRs involving complex UI lifecycles or NAPI implementations,(3) Developing NAPI bridges between ArkTS and C++. Maps code to official specifications and applies heuristics for NAPI reference management and lifecycle synchronization.Original repository: https://gitcode.com/HarmonyOS_Skills/harmonyos-agent-skills",
+   "size": 567043,
+   "sha256": "047db012c634892ed1285c7116909e1c1ff15c53565936b616865f3bd238a2e4"
+  },
+  "6a26ca04baaff04434228a01": {
+   "name": "hmos-appfreeze-analysis",
+   "dir": "references/huawei-skills/hmos-appfreeze-analysis",
+   "tags": [
+    "HMOS",
+    "DFX"
+   ],
+   "description": "自动分析 HarmonyOS / OpenHarmony Freeze（冻屏/卡死）故障日志，定位根因并输出完整证据链。当用户提供完整的faultlog 文件和采样栈文件、询问应用无响应/卡死/ANR 问题的根因，或上传包含 APPFREEZE / INPUT_BLOCK / LIFECYCLE_TIMEOUT 等关键字的日志时，必须使用此技能。即使用户只说\"帮我分析这个 freeze 日志\"、\"应用卡死了是什么原因\"，也应立即触发此技能。技能会按优先级逐步排除整机低内存、高负载、热限频等系统级异常，再深入分析线程堆栈、Binder 通信链路、EventHandler 队列，最终输出唯一根因模块与修复建议。原始仓库：https://gitcode.com/HarmonyOS_Skills/harmonyos-agent-skills",
+   "size": 57094,
+   "sha256": "98f4a3628faa2d6a06fdad57fd25e982a86c76411ced8429b7cbbb534ed2c95c"
+  },
+  "6a2109725f61584597413c43": {
+   "name": "hmos-apifault-analysis",
+   "dir": "references/huawei-skills/hmos-apifault-analysis",
+   "tags": [
+    "HMOS",
+    "DFX",
+    "鸿蒙开放能力"
+   ],
+   "description": "定位开发者问题。当用户输入错误码、错误信息、错误日志、执行失败或需要定位问题时使用。原始仓库：https://gitcode.com/HarmonyOS_Skills/harmonyos-agent-skills",
+   "size": 353831,
+   "sha256": "f93a77f9e3a892df3c1374fa7f089ebc8f12d00457bcdcd2fc3c577c6ec54b30"
+  },
+  "6a2a34e6efaf3913a71c544e": {
+   "name": "hmos-push-kit",
+   "dir": "references/huawei-skills/hmos-push-kit",
+   "tags": [
+    "HMOS",
+    "鸿蒙开放能力"
+   ],
+   "description": "华为Push Kit推送服务集成助手（Master Skill/大路由）。帮助开发者快速集成HarmonyOS推送功能，获取Push Token， 配置推送服务，开通场景化消息权益。支持发送通知消息、应用内通话消息、后台消息等场景。原始仓库：https://gitcode.com/HarmonyOS_Skills/harmonyos-agent-skills",
+   "size": 42468,
+   "sha256": "be95bb9db38e1be522723721a1621684bd7e32bc097d7faa7057b993e5d1c3d3"
+  },
+  "6a2a349fefaf3913a71c544b": {
+   "name": "hmos-live-view-kit-build-location",
+   "dir": "references/huawei-skills/hmos-live-view-kit-build-location",
+   "tags": [
+    "HMOS",
+    "鸿蒙开放能力"
+   ],
+   "description": "HarmonyOS实况窗（LiveView）代码生成助手，支持创建、更新、停止实况窗。用户输入创建/更新/结束/完整/补全实况窗代码时触发，覆盖即时配送、打车、排队、计时、航班、高铁、共享租赁、运动锻炼、导航九大场景。原始仓库：https://gitcode.com/HarmonyOS_Skills/harmonyos-agent-skills",
+   "size": 71530,
+   "sha256": "56c692d43a8743ad213daa037dffe1d41031b4fc55872be4f07243ca6dae73ed"
+  },
+  "6a2a3478587f977f23cd00a6": {
+   "name": "hmos-design-visual-mobile",
+   "dir": "references/huawei-skills/hmos-design-visual-mobile",
+   "tags": [
+    "HMOS"
+   ],
+   "description": "HarmonyOS 移动端页面视觉还原技能。基于仓库内设计规范文档与组件模板，生成符合 HarmonyOS Design Token 标准的高保真移动端 HTML 页面。触发场景：(1) 用户要求生成/还原 HarmonyOS 移动端页面 (2) 用户提供设计稿/截图/参考图，要求还原为 HarmonyOS 风格 HTML 页面 (3) 用户提到\"视觉还原\"/\"高保真页面\"/\"移动端页面\"并涉及 HarmonyOS，用于需要生成符合鸿蒙规范的移动端设计稿的场景。原始仓库：https://gitcode.com/HarmonyOS_Skills/harmonyos-agent-skills",
+   "size": 18370156,
+   "sha256": "9c6d89b7cf2c0672153d9424aed4f36ba17a980c645f11c84521cfdfa71ebc5b"
+  },
+  "6a1086b99ca68848e13e14c6": {
+   "name": "hmos-local-test",
+   "dir": "references/huawei-skills/hmos-local-test",
+   "tags": [
+    "HMOS"
+   ],
+   "description": "在 HarmonyOS 应用/服务开发中执行模块的 Local Test（ArkTS/JS 单元测试），支持运行、覆盖率统计等模式，并可指定测试范围（模块、测试套件、单个用例）。原始仓库：https://gitcode.com/HarmonyOS_Skills/harmonyos-agent-skills",
+   "size": 13715,
+   "sha256": "cad9c155f1d947c4deb4b3de59f2b91c928eed5c1a28ce236368d48268716b7b"
+  },
+  "6a15c2573a79e364c8d3b6ef": {
+   "name": "hmos-multidevice-avoid-areas",
+   "dir": "references/huawei-skills/hmos-multidevice-avoid-areas",
+   "tags": [
+    "HMOS"
+   ],
+   "description": "Handle HarmonyOS avoid-area adaptation through a declarative scene and resource index. Use when the task involves safe area expansion, status bar or navigation bar avoidance, notch or cutout handling, immersive full-screen layouts, or soft keyboard overlap handling. Original repository：https://gitcode.com/HarmonyOS_Skills/harmonyos-agent-skills",
+   "size": 86831,
+   "sha256": "d4075df6b24d4eb813c2c7614e0d13ef16a0cc6f7dee10943e8b6f5015c5b804"
+  },
+  "6a15c4343a79e364c8d3b6f8": {
+   "name": "hmos-multidevice-screen-window-size",
+   "dir": "references/huawei-skills/hmos-multidevice-screen-window-size",
+   "tags": [
+    "HMOS"
+   ],
+   "description": "HarmonyOS multi-device responsive/adaptive layout for phones, tablets, 2-in-1, wearables, foldables, bi-fold/tri-fold, landscape/portrait, and window resizing. Use for new pages/components or layout bugs involving breakpoints, GridRow/GridCol, WidthBreakpoint/HeightBreakpoint, repeat/split/relocate/indent layouts, layoutWeight/Blank/aspectRatio/displayPriority/FlexWrap, windowSizeChange/AppStorage, EasyGo/easy_go.json parallel view, in-app split screen, launch page adaptation, density/font scaling, and 8 screen form factors. Trigger on 自适应布局, 响应式布局, 多设备适配, 折叠屏/双折/三折, 平板/大屏, 横竖屏, 分栏/列表详情, 应用内分屏/分窗, 平行视界/EasyGo, 截断/留白/溢出/压缩/错位/遮挡, GridRow不降列, 断点不切换, 图片变形/等比/aspectRatio, 自动拉伸/填满/撑满, 剩余空间, 自动换行, displayPriority, 均分/均匀分布, 百分比宽度, 滚动延伸/List/Scroll. Do not use for FoldStatus, hover, crease, safe area, or size-independent tweaks. Original repository：https://gitcode.com/HarmonyOS_Skills/harmonyos-agent-skills",
+   "size": 130231,
+   "sha256": "748e45066efdf77330f3450e520aa0c9bbb1438539637d91c99a7077c00c7709"
+  },
+  "6a1084426778a5193e9ba97f": {
+   "name": "hmos-arkui-knowledge-retriever",
+   "dir": "references/huawei-skills/hmos-arkui-knowledge-retriever",
+   "tags": [
+    "ArkUI",
+    "HMOS"
+   ],
+   "description": "ArkUI 知识检索层，提供基于本地知识库的精准检索能力，不涉及代码生成或修改。触发场景：(1) 用户查询 ArkUI API 用法、参数细节或版本支持 (2) 用户需要验证某个组件/装饰器的正确用法 (3) 用户排查 ArkUI 编译错误码或运行时异常 (4) 用户询问状态管理 V1/V2 差异或迁移细节 (5) 其他 skill 需要调用检索能力获取 API 证据。原始仓库：https://gitcode.com/HarmonyOS_Skills/harmonyos-agent-skills",
+   "size": 3261227,
+   "sha256": "20058f8bd91ac8515d5fdf9a5ce57732e0ba3cdb48a9f026aafa078a0c2d5cdc"
+  },
+  "6a15c33585d6af77b47b17bd": {
+   "name": "hmos-multidevice-hardware-access",
+   "dir": "references/huawei-skills/hmos-multidevice-hardware-access",
+   "tags": [
+    "HMOS"
+   ],
+   "description": "Handle HarmonyOS hardware-capability adaptation through a declarative scene and resource index. Use when the task involves camera selection, camera rotation/stride/foldable adaptation, canIUse or SysCap checks, hardware fallback strategy, or multi-device hardware behavior differences. Original repository：https://gitcode.com/HarmonyOS_Skills/harmonyos-agent-skills",
+   "size": 60865,
+   "sha256": "5bcc7b92e6fc08e59981396b798c48cf0c1c6d269d0d8ba91187cee9144a553c"
+  },
+  "6a15c3ac85d6af77b47b17c0": {
+   "name": "hmos-multidevice-natural-orientation",
+   "dir": "references/huawei-skills/hmos-multidevice-natural-orientation",
+   "tags": [
+    "HMOS"
+   ],
+   "description": "鸿蒙 HarmonyOS 屏幕方向与旋转相关的需求分析、开发实现、问题修复和功能验证。当任务涉及以下场景时使用：setPreferredOrientation、屏幕旋转(rotation)、屏幕方向(orientation)、自然方向、折叠屏方向、三折叠G态、follow_desktop、视频横竖屏切换、短视频自适应旋转、多设备方向策略、module.json5方向配置、方向监听、旋转检测、分屏旋转、折叠屏展开态方向、窗口方向设置、方向Bug修复。 原始仓库：https://gitcode.com/HarmonyOS_Skills/harmonyos-agent-skills",
+   "size": 59177,
+   "sha256": "3f451f2afeeedb1bc7b087fc919487fb7eeb0c1e44d9f2cd1cba629f97acb539"
+  },
+  "6a1085399ca68848e13e14c0": {
+   "name": "hmos-ascf-convert-uniapp",
+   "dir": "references/huawei-skills/hmos-ascf-convert-uniapp",
+   "tags": [
+    "ASCF",
+    "HMOS"
+   ],
+   "description": "辅助开发者将 uni-app 项目适配(转换)为 ASCF 元服务。当需要使用 uni-app（HBuilderX 或 CLI）开发 HarmonyOS 元服务（MP-HARMONY），或将现有 uni-app 项目迁移(转换)到 ASCF 时使用此技能。提供完整的环境搭建、HBuilderX 开发流程、CLI 配置、常见问题排查和上架审核指引。原始仓库：https://gitcode.com/HarmonyOS_Skills/harmonyos-agent-skills",
+   "size": 29098,
+   "sha256": "f0dfa7162ecd428340e41fac4da7c0619300f8cac28b366811e314ff66ead342"
+  },
+  "6a1086556778a5193e9ba982": {
+   "name": "hmos-instrument-test",
+   "dir": "references/huawei-skills/hmos-instrument-test",
+   "tags": [
+    "HMOS"
+   ],
+   "description": "在 HarmonyOS 应用/服务开发中执行模块的 Instrument Test（包括 ArkTS/JS 和 C++ 测试），支持运行、覆盖率统计、ASan 检测等模式，并可指定测试范围（模块、测试套件、单个用例）。原始仓库：https://gitcode.com/HarmonyOS_Skills/harmonyos-agent-skills",
+   "size": 19577,
+   "sha256": "da3522b868feeb4dcea92bce2a65901a52c1f3815709e1b410728aa3f9b88bc9"
+  },
+  "6a2a344f40e9726f5c23d3b4": {
+   "name": "hmos-arkui-mvvm-pattern",
+   "dir": "references/huawei-skills/hmos-arkui-mvvm-pattern",
+   "tags": [
+    "HMOS",
+    "ArkUI"
+   ],
+   "description": "HarmonyOS ArkUI 的 MVVM 架构技能。适用于：(1) 项目分层设计 Model/ViewModel/View (2) 目录结构规划 (3) 组件职责与数据流规范 (4) 视图架构检视以及整改项目为MVVM模式等场景。原始仓库：https://gitcode.com/HarmonyOS_Skills/harmonyos-agent-skills",
+   "size": 46847,
+   "sha256": "1e25ee94c4258e9f6c1c91006a64ec0339ce671c48fffa41f911e76dc27d640b"
+  },
+  "6a2109c15f61584597413c46": {
+   "name": "hmos-cppcrash-analysis",
+   "dir": "references/huawei-skills/hmos-cppcrash-analysis",
+   "tags": [
+    "HMOS",
+    "DFX"
+   ],
+   "description": "分析 HarmonyOS/OpenHarmony 应用的 CppCrash（Native 层崩溃）故障日志，定位根因并给出修复建议。当用户提供 cppcrash 日志、粘贴 Native 崩溃堆栈、询问 SIGSEGV/SIGABRT/SIGILL/SIGBUS 崩溃原因、或上传含有信号值/寄存器/调用栈的故障日志时，必须使用此技能。即使用户只说\"帮我分析这个崩溃日志\"、\"应用崩溃了是什么原因\"、\"空指针崩溃怎么排查\"，也应立即触发此技能。原始仓库：https://gitcode.com/HarmonyOS_Skills/harmonyos-agent-skills",
+   "size": 76995102,
+   "sha256": "f0bddeeaf5cfe32d45f4d716e6335964f94967a87362faa9ba1872a652ea866f"
+  },
+  "6a2a3427efaf3913a71c5448": {
+   "name": "hmos-arkui-longtake-transition",
+   "dir": "references/huawei-skills/hmos-arkui-longtake-transition",
+   "tags": [
+    "HMOS",
+    "ArkUI"
+   ],
+   "description": "为鸿蒙(HarmonyOS)应用添加一镜到底转场效果。当用户提到一镜到底、转场动画、页面跳转动画、Navigation转场、卡片展开动画、图片查看大图动画、ezcustomtransition、自定义NavContentTransition、longtake、连续转场、沉浸式转场等关键词时，务必使用此skill。也适用于用户想要在鸿蒙应用中实现类似iOS的卡片展开、图片预览等流畅过渡效果的场景，即使他们没有明确提到\"一镜到底\"这个术语。原始仓库：https://gitcode.com/HarmonyOS_Skills/harmonyos-agent-skills",
+   "size": 17194,
+   "sha256": "4d3b2e7e77a03e1a8542d3e438ad7ab9af06b4cfffb2081e144f5b301cfd4261"
+  },
+  "6a2a3541587f977f23cd00a9": {
+   "name": "hmos-scan-kit-defaultscan",
+   "dir": "references/huawei-skills/hmos-scan-kit-defaultscan",
+   "tags": [
+    "HMOS",
+    "鸿蒙开放能力"
+   ],
+   "description": "帮助开发者快速接入华为 Scan Kit 默认界面扫码能力，在不需要完全自定义相机界面、闪光灯控制、变焦、对焦等高级功能时优先使用。原始仓库：https://gitcode.com/HarmonyOS_Skills/harmonyos-agent-skills",
+   "size": 24287,
+   "sha256": "ffcd102fb010e9afc94cde92c026eadd6ef13b3f46f9d3322f436f199eb17fcf"
+  },
+  "6a15c37d3a79e364c8d3b6f5": {
+   "name": "hmos-multidevice-interaction-methods",
+   "dir": "references/huawei-skills/hmos-multidevice-interaction-methods",
+   "tags": [
+    "HMOS"
+   ],
+   "description": "HarmonyOS应用多设备交互适配开发方案skill，提供触摸、鼠标、键盘、手写笔等多输入方式的交互方案和事件归一策略。当涉及触摸、鼠标、键盘、手写笔等设备的交互以及实现交互归一化、悬停效果、右键菜单、焦点导航、键盘快捷键、手写板输入和压感等功能时调用。原始仓库：https://gitcode.com/HarmonyOS_Skills/harmonyos-agent-skills",
+   "size": 20491,
+   "sha256": "7b9ce65c6c1aba75bc4f2b681dede0a7b54f00a0e2805a104d08bc8bb2d04288"
+  },
+  "6a1084e1a4482462bc6264f7": {
+   "name": "hmos-ascf-convert-taro",
+   "dir": "references/huawei-skills/hmos-ascf-convert-taro",
+   "tags": [
+    "ASCF",
+    "HMOS"
+   ],
+   "description": "辅助开发者将 Taro 项目适配（转换）为 ASCF 元服务。当需要在 Taro（React/Vue）项目中支持 ASCF 元服务平台，或将现有 Taro 项目迁移到 ASCF 时使用此技能。提供完整的环境搭建、项目配置、package.json 脚本、常见问题排查和发布流程。原始仓库：https://gitcode.com/HarmonyOS_Skills/harmonyos-agent-skills",
+   "size": 23706,
+   "sha256": "d7cda6c1aeafe869ebc075f8c21605a386a4996cf8aff5ddd96d0c91b04ab4ef"
+  },
+  "6a2a351befaf3913a71c5451": {
+   "name": "hmos-scan-kit-customscan",
+   "dir": "references/huawei-skills/hmos-scan-kit-customscan",
+   "tags": [
+    "HMOS",
+    "鸿蒙开放能力"
+   ],
+   "description": "帮助开发者快速接入华为 Scan Kit 自定义界面扫码能力，仅在需要支持完全自定义相机预览流 UI 界面、闪光灯控制、变焦、对焦等功能的场景使用。原始仓库：https://gitcode.com/HarmonyOS_Skills/harmonyos-agent-skills",
+   "size": 87410,
+   "sha256": "1e29db86880f16915b5476717c583ea807319db74d3f81ff3aab7f6a3e896d34"
+  },
+  "6a9e7a91bec30c1b5b02d493": {
+   "name": "hmos-map-kit-map-creation",
+   "dir": "references/huawei-skills/hmos-map-kit-map-creation",
+   "tags": [
+    "HMOS",
+    "鸿蒙开放能力"
+   ],
+   "description": "HarmonyOS Map Kit地图创建开发指南，支持地图组件创建、覆盖物管理、相机控制、图层配置等能力。\n适用情形：用户要求创建/绘制/展示地图、添加地图标记、绘制图形、管理覆盖物交互、控制相机位置等。",
+   "size": 36222,
+   "sha256": "37480a1cc5fcc6355e6aa2832cc215024c656c2d095d10ba9ec039af56e636ca"
+  },
+  "6a9e7a8ebec30c1b5b02d490": {
+   "name": "hmos-map-kit-poi-search",
+   "dir": "references/huawei-skills/hmos-map-kit-poi-search",
+   "tags": [
+    "HMOS",
+    "鸿蒙开放能力"
+   ],
+   "description": "HarmonyOS Map Kit位置搜索与POI检索开发指南。当用户明确要求开发实现（如\"编写代码\"、\"开发功能\"等）位置搜索、POI检索、地理编码、逆地理编码等功能代码时触发。适用于直接调用本地SDK接口获取地图元素的场景。\n适用情形：关键字搜索地点、周边地点检索、地点详情查询、地址与坐标转换。",
+   "size": 24255,
+   "sha256": "47cc2bcfc3b5d19ecdc6f53aeae9c0e117e50662dbabef0f55bae327ca5f3c3b"
+  },
+  "6a9e7a92bec30c1b5b02d496": {
+   "name": "hmos-map-kit-route-planning",
+   "dir": "references/huawei-skills/hmos-map-kit-route-planning",
+   "tags": [
+    "HMOS",
+    "鸿蒙开放能力"
+   ],
+   "description": "HarmonyOS Map Kit路径规划开发指南。\n适用情形：用户明确要求开发实现（如\"编写代码\"、\"开发功能\"等）路径规划、批量算路、轨迹纠偏等功能代码时触发。",
+   "size": 22109,
+   "sha256": "decb0394c3156dfe47e4450e26111a0cf68c3f83231d93b213cbfd5a03210fba"
+  },
+  "6aa81c45fe22192a9e8589b7": {
+   "name": "hmos-payment-kit-huawei-payment-integration",
+   "dir": "references/huawei-skills/hmos-payment-kit-huawei-payment-integration",
+   "tags": [
+    "HMOS",
+    "鸿蒙开放能力"
+   ],
+   "description": "本技能面向 HarmonyOS Payment Kit 华为 / 鸿蒙支付接入排障，覆盖基础支付、签约代扣、平台合单、回调验签、沙盒联调、SpringBoot 服务端与 ArkTS 客户端适配，包含官方 Java‑SDK、Maven 构建、配置校验、常见报错排查，命中指定关键词即启用，输出接入指引与问题修复方案。",
+   "size": 59564,
+   "sha256": "5f47f3049f5aeb0a53d76e38833d520b587ffa8426237042e00e0dea12013648"
+  },
+  "6a1085bb9ca68848e13e14c3": {
+   "name": "hmos-atomicservice-assistant",
+   "dir": "references/huawei-skills/hmos-atomicservice-assistant",
+   "tags": [
+    "ASCF",
+    "HMOS"
+   ],
+   "description": "辅助鸿蒙开发者构建元服务（Atomic Service / 免安装应用）。只要用户提到元服务、atomicService、免安装、atomic service，或遇到以下任意问题，都必须使用本 Skill：创建/改造元服务项目、@atomicservice API 报错、配置隐私托管、设置可信域名、静默登录/免密登录、接入鸿蒙支付、包大小超限、AtomicServiceEnhancedWeb vs ArkWeb、Navigation 分包路由、睫毛图标、ICP备案、上架审核被拒。提供规范说明、合规检查清单、代码示例和上架最佳实践。原始仓库：https://gitcode.com/HarmonyOS_Skills/harmonyos-agent-skills",
+   "size": 20286,
+   "sha256": "09114fae83c35b15d09e39887f4161c1a73d800517d3864b46b8dd2a250fc276"
+  },
+  "6a881cafa4122c463164530e": {
+   "name": "hmos-fdleak-analysis",
+   "dir": "references/huawei-skills/hmos-fdleak-analysis",
+   "tags": [
+    "DFX",
+    "HMOS"
+   ],
+   "description": "DFX Skills，分析 FD Leak、句柄泄漏和文件描述符泄漏日志，提取泄漏快照、句柄类型与目录分布、专项维测明细及 FdTrack 申请栈热点，并依据证据链定位根因。当用户提供 `[pid]_fd_leak.txt`、`RESOURCE_OVERLIMIT_[TIMESTAMP]_[PID].log`，或输入包含 `leaked fd nums`、`Leaked fd Top 10`、`LOGGER_MEMCHECK_FD_STACK_INFO`、`FdTrack Stack` 时使用。",
+   "size": 13981,
+   "sha256": "be4b18e60061e2b62b3756170f56f7c3075a1b3eb36cf45a70d33997025c46f1"
+  },
+  "6aa81c42fe22192a9e8589b4": {
+   "name": "hmos-ads-kit-access",
+   "dir": "references/huawei-skills/hmos-ads-kit-access",
+   "tags": [
+    "HMOS",
+    "鸿蒙开放能力"
+   ],
+   "description": "HarmonyOS Ads Kit 广告服务开发指南 — 涵盖6种广告形式(横幅/原生/激励/插屏/开屏/贴片)的完整接入文档、代码模板、自动化场景识别与植入决策引擎。触发关键词：广告接入, Ads Kit, 流量变现, 横幅广告, 原生广告, 激励广告, 插屏广告, 开屏广告, 贴片广告, OAID, 广告自动化接入, 广告植入, RTB, 广告错误排查",
+   "size": 160122,
+   "sha256": "162c73c24d23b0059e038ddc09e6d21f2858ca5b3d0478cc089bc07af5c01859"
+  },
+  "6a60a05b210fe27bd2470163": {
+   "name": "hmos-native-memleak-analysis",
+   "dir": "references/huawei-skills/hmos-native-memleak-analysis",
+   "tags": [
+    "HMOS",
+    "DFX"
+   ],
+   "description": "自动分析 HarmonyOS / OpenHarmony Native内存泄漏问题，基于 sample 采样文件、smaps 文件、profiler 火焰图等信息定位泄漏根因并输出完整证据链。当用户提供 sample 采样文件、smaps 文件、profiler 火焰图、NMD 数据，或询问应用内存泄漏/内存增长/OOM问题的根因即使用户只说\"帮我分析这个内存泄漏\"、\"应用内存一直涨\"、\"native泄漏分析\"、\"PSS泄漏\"、\"DMA泄漏\"、\"GPU泄漏\"，也应立即触发此技能。原始仓库：https://gitcode.com/HarmonyOS_Skills/harmonyos-agent-skills",
+   "size": 13051352,
+   "sha256": "e258f63777d6d13aa7b65af8a7c1d513a726e9edb35ad94660f0a15631f42308"
+  },
+  "6aad068afd16e319f7741add": {
+   "name": "hmos-one-sdk-skill",
+   "dir": "references/huawei-skills/hmos-one-sdk-skill",
+   "tags": [
+    "HMOS",
+    "鸿蒙开放能力"
+   ],
+   "description": "⚠️ MUST LOAD before writing first .ets file that imports from @kit.*. This skill provides verified API signatures, import paths, error codes, permission requirements, and example code for 25 Kits (AccountKit, MediaKit, NetworkKit, ScanKit, LocationKit, PushKit etc.). Even if you have partial API info from other sources, this skill covers complete error codes and permission requirements they lack. Load when — (1) writing ANY @kit.* import; (2) calling Kit APIs like vibrator, Bluetooth, location, scan, account, push, network, health, wear, map, IAP, accessibility, i18n, form, widget, card, cross-device collaboration; (3) @kit.* compile errors (wrong namespace, missing exported member, type mismatch) — load BEFORE attempting fixes;",
+   "size": 8310057,
+   "sha256": "700b219832d0fe42fc2b4997aee4a78311700c84ef21e78e4f02ff728c4aa004"
+  },
+  "6a210a6a5e56c918406bf491": {
+   "name": "hmos-jsleak-analysis",
+   "dir": "references/huawei-skills/hmos-jsleak-analysis",
+   "tags": [
+    "HMOS",
+    "DFX"
+   ],
+   "description": "分析 rawheap / heapsnapshot 聚类后的内存对象数据，识别疑似内存泄漏。当用户提供 .rawheap 文件、.heapsnapshot 文件、堆内存聚类报告、heap_cluster.mjs 输出结果，或询问\"哪些对象在泄漏\"\"哪些对象没有释放\"\"分析这份内存报告\"\"帮看下内存泄漏\"\"为什么内存涨这么多\"时，必须使用此技能。即使用户只贴出一段包含\"引用链 / Retainer Chain / Retained Size / 聚类 / GC Root\"的报告或表格，也应立即触发此技能。技能内置 rawheap_translator 与 heap_cluster 聚类脚本，能先把 .rawheap 转成 .heapsnapshot，再处理 .heapsnapshot 原始文件，并按 Detached、全局引用、闭包、异常大小四类规则进行根因定位，输出结构化的泄漏嫌疑清单。原始仓库：https://gitcode.com/HarmonyOS_Skills/harmonyos-agent-skills ",
+   "size": 125880017,
+   "sha256": "eabfe56343ca73225467e2737c28d7dbb7a1e7e8dd4c83f4a578ec75f6b83bf3"
+  },
+  "6a15c2eb3a79e364c8d3b6f2": {
+   "name": "hmos-multidevice-fold-state",
+   "dir": "references/huawei-skills/hmos-multidevice-fold-state",
+   "tags": [
+    "HMOS"
+   ],
+   "description": "HarmonyOS foldable-device adaptation skill for requirements, development, bug-fix, and verification phases. Activate when the task involves fold status detection, hover-mode split-screen layouts, crease avoidance, fold continuity, multi-fold form-factor mapping (e.g. F/M/G), inner/outer screen ratio differences, or fold-related issue remediation. Original repository：https://gitcode.com/HarmonyOS_Skills/harmonyos-agent-skills",
+   "size": 86621,
+   "sha256": "763f40163683625867bf91a3b15bdec083bc47b9e2f91d56a3a313ac9e5d2b64"
+  },
+  "6a10848e071d0d29982eec77": {
+   "name": "hmos-ascf-assistant",
+   "dir": "references/huawei-skills/hmos-ascf-assistant",
+   "tags": [
+    "ASCF",
+    "HMOS"
+   ],
+   "description": "辅助开发者使用 ASCF 工具链开发 HarmonyOS 元服务。触发场景：(1) 任何提到 ASCF 的问题；(2) 检测到项目包含 ascf/ascf_src 目录（即 ASCF 项目）；(3) 需要生成元服务睫毛图；(4) 将小程序转换为 ASCF 元服务；(5) 开发ASCF元服务页面/组件/平台能力（华为账号登录、隐私托管、授权、支付、分享、web-view、定位等）；(6) 将 Taro/uni-app 项目适配为 ASCF 元服务；(7) HarmonyOS 4及以下版本元服务适配与发布。原始仓库：https://gitcode.com/HarmonyOS_Skills/harmonyos-agent-skills",
+   "size": 594729,
+   "sha256": "fb3b22829b5d2fe8d18ab089e4729407d856f9bcfc66560cd219e92cdc35454b"
+  },
+  "6a046ec8f5e4ac20d9106b0b": {
+   "name": "jiuwen-cli-creator",
+   "dir": "references/huawei-skills/jiuwen-cli-creator",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "将 HarmonyOS/OHOS 仓库中的系统能力（SA、inner_kits、inner_api、IDL）封装成可执行 CLI 工具，支持 ohos-/hms- 命名规范，包含完整的接口探索、权限分析、代码实现、编译验证和报告生成流程",
+   "size": 284098,
+   "sha256": "07d13dcd8c28c277f608636d5cd1c1f8e6b333ed4e0d5e14d6aaee9476fdd390"
+  },
+  "699fb9d75a554d66cf5a3740": {
+   "name": "openharmony-cpp",
+   "dir": "references/huawei-skills/openharmony-cpp",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Expert coding guide for OpenHarmony C++ development. Use this skill when writing, refactoring, or reviewing C++ code for OpenHarmony projects. It enforces strict project-specific conventions (naming, formatting, headers) and critical security requirements (input validation, memory safety).",
+   "size": 4313,
+   "sha256": "895614b87c0d01fe91c6bf089c7f63ce79a74c4952f9a78bcf0e3cbc26adbda3"
+  },
+  "699fb9cf5a554d66cf5a373d": {
+   "name": "openharmony-build",
+   "dir": "references/huawei-skills/openharmony-build",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "This skill should be used when the user asks to \"编译 OpenHarmony\", \"build OpenHarmony\", \"编译完整代码\", \"执行编译\", \"编译 OpenHarmony 代码\", \"快速编译\", \"跳过gn编译\", \"fast-build\", \"编译测试\", \"编译测试用例\", \"build ace_engine_test\", \"编译 sdk\", \"编译 SDK\", \"build sdk\", \"build SDK\", \"编译 ohos-sdk\", \"编译测试列表\", \"build test list\", \"按列表编译测试\", \"编译指定测试\", or mentions building the full OpenHarmony system, fast rebuild, test compilation, SDK compilation, or building tests from a target list. Handles complete build process including build execution, success verification, and failure log analysis with primary focus on out/{product}/build.log.",
+   "size": 26325,
+   "sha256": "6112042c8eb7bd253813f922ff2cef9958b541502f3f2c0b13cc0d362e3df476"
+  },
+  "6a1e7f0b530c9525063940d6": {
+   "name": "jiuwen-intent-creator",
+   "dir": "references/huawei-skills/jiuwen-intent-creator",
+   "tags": [
+    "OpenHarmony",
+    "ArkTS"
+   ],
+   "description": "Settings 设置应用接入意图框架的Skill。用于将设置项接入意图框架，让小艺能够调用。当需要为Settings应用新增意图接入时使用，首先确定控件类型，然后参考对应类型的详细文档完成接入。",
+   "size": 59011,
+   "sha256": "23d0de664c1ed6cb70249215a3b41f22d37944fddc17f4956cd1215303ca3242"
+  },
+  "6a17fb7085d6af77b47b17d5": {
+   "name": "ohos-test-capi-xts-generation",
+   "dir": "references/huawei-skills/ohos-test-capi-xts-generation",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Use this skill when generating XTS test cases for OpenHarmony C/C++ CAPI via N-API wrapping. Automatically parses .h header files to generate C++ N-API bindings and ETS/ArkTS test code. Triggers include CAPI, C testing, Native testing, .h file parsing, N-API wrapper generation, coverage report driven test supplement, async build verification, and subsystem-level XTS testing.",
+   "size": 330715,
+   "sha256": "70404529b3d9c78639adffba31a8eebe850a3dc29490012affd9bca097856448"
+  },
+  "6a17f4978e41742dff8258f9": {
+   "name": "ohos-dev-arkts-static-specification-reference",
+   "dir": "references/huawei-skills/ohos-dev-arkts-static-specification-reference",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "ArkTS static language specification reference for OpenHarmony. Use this skill when reading or writing ArkTS (.ets), explaining ArkTS type-system and static-semantics rules (Any type, nullish types, enum, cast expression, subtyping, assignability, compile-time error, async/await, generic constraint, concurrency), validating code against the ArkTS spec, investigating ArkTS compile-time behavior, or comparing ArkTS with TypeScript migration guidance.",
+   "size": 272120,
+   "sha256": "cf1c3cc8b536b470066398f7f0ef9bd5f1a41e27bda543ae2effe53b9401522d"
+  },
+  "6a16dfe33a79e364c8d3b700": {
+   "name": "hmos-hyperstartup-adaptation",
+   "dir": "references/huawei-skills/hmos-hyperstartup-adaptation",
+   "tags": [
+    "OpenHarmony",
+    "OpenHarmony性能技能库"
+   ],
+   "description": "对鸿蒙应用源码进行 HyperStartup 快启适配。通过编排调用 10 个子 skill 完成 16 步完整流程：编译安装启动、采集 hitrace、trace 转 DB、拆解普通冷启动耗时、静态扫描、动态检测、动静态整合分析、设计适配方案、生成适配代码、编译安装启动并保存中间数据、采集快启 hitrace、trace 转 DB、拆解快启启动耗时、动态检测、应用遍历测试、生成适配报告。当用户要求进行完整快启适配、快启适配或 HyperStartup 适配时触发。不适用于仅需静态扫描或简易适配的场景。",
+   "size": 118283777,
+   "sha256": "bbae2658c57b687670ae4782aafbd42a97b503cec11a7b9e9014f86e16d0c2e7"
+  },
+  "6a181fbf45371b3a70b81145": {
+   "name": "ohos-development-arkruntime-interop-promise",
+   "dir": "references/huawei-skills/ohos-development-arkruntime-interop-promise",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "ETS-JavaScript interop Promise bridging system in ArkCompiler. Use this skill when working on cross-language Promise conversion between ETS (ArkTS) and JavaScript, including JSConvertPromise Wrap/Unwrap, EtsPromise proxy creation, EtsPromiseRef bridging, CreatePromiseLink, OnJsPromiseCompleted callbacks, connectPromise, SettleJsPromise, PromiseInteropResolve/Reject, EtsAwaitPromise/AwaitProxyPromise, callback queue management, or any code under js_convert.h (Promise section), js_job_queue, ets_promise, ets_promise_ref, std_core_Promise.cpp, or PromiseInterop.ets. Also use when debugging cross-VM Promise state synchronization, coroutine suspension/resumption during await, or napi_deferred lifecycle issues.",
+   "size": 11070,
+   "sha256": "d223b779803125d500baced80804ac513208211497ef5bcf19f8ca523d8f8dbc"
+  },
+  "699fb8a3220f26754f7ae424": {
+   "name": "android-to-harmonyos-migration-workflow",
+   "dir": "references/huawei-skills/android-to-harmonyos-migration-workflow",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "多 agent 协作的 Android 到 HarmonyOS 代码迁移工作流（迭代式）。当用户需要将 Android 项目迁移到 HarmonyOS 时触发，提供：1) Analyzer Agent 扫描代码结构 2) Planner Agent 制定迁移计划 3) Translator Agent 执行代码转换 4) **Validator Agent（验证代理）** 使用 **ohos-app-build-debug** skill 进行编译验证、应用打包和上板验证首界面 5) Tester Agent 验证功能（每个模块迁移完成后执行） 6) 所有模块迁移完成后，执行 Feature Comparator Agent 检查遗漏功能 7) UI Comparator Agent 验证界面一致性 8) 将未完成部分反馈给 Planner Agent 继续迭代。包含代码分析脚本、API映射表、组件转换模式和自动化验证工具。触发关键词：迁移Android到鸿蒙、Android迁移、HarmonyOS迁移、Java/Kotlin转ArkTS、Activity转Page、功能比对、UI比对。",
+   "size": 45473,
+   "sha256": "3b50fa5871ed5d12ffea5009f87052fe80c15af99d0a97cc1f32f164f6be5581"
+  },
+  "699fb9df220f26754f7ae451": {
+   "name": "openharmony-download",
+   "dir": "references/huawei-skills/openharmony-download",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Interactive OpenHarmony source code download with mirror selection (GitCode/Gitee/GitHub), environment checking, branch selection, and real-time progress. Use when user requests:\"下载 OpenHarmony\", \"download OpenHarmony\", \"下载源码\", \"获取源码\", \"拉取代码\", \"clone openharmony\", or \"repo init\".",
+   "size": 9453,
+   "sha256": "b9062a0831b7592dc424e05cf91ac43cc4f1938781b715e40098fbd6dcfd9113"
+  },
+  "6a17fb7285d6af77b47b17d8": {
+   "name": "ohos-test-ut-generation",
+   "dir": "references/huawei-skills/ohos-test-ut-generation",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "为OpenHarmony C/C++代码生成单元测试用例。Use when: (1) 用户请求为子系统/模块/文件/函数生成单元测试；(2) 编写HWTEST/HWTEST_F测试用例；(3) 创建ohos_unittest；(4) 用户提到'生成测试用例'、'写单元测试'、HWTEST、ohos_unittest。Keywords: HWTEST, ohos_unittest,  unit test, C++ testing, 单元测试生成",
+   "size": 55627,
+   "sha256": "395423be9b29713af4f3dab5c5dba0a7c3134159242bdfea127fe3466e1a5401"
+  },
+  "6a17f0663a79e364c8d3b703": {
+   "name": "ohos-ci-gitcode-cli-usage",
+   "dir": "references/huawei-skills/ohos-ci-gitcode-cli-usage",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Use when managing GitCode repositories from the terminal with oh-gc CLI. Triggers on GitCode issue or pull request work, oh-gc commands, creating or reviewing PRs, assigning reviewers or testers, managing labels, releases, repository settings, or when the user wants GitCode operations without a browser.",
+   "size": 25003,
+   "sha256": "05756429955e77a87badaa874ff0a53a92518d05ee84596a0dfa4a8517928fdd"
+  },
+  "6a17f49d3a79e364c8d3b70d": {
+   "name": "ohos-dev-security-code-review",
+   "dir": "references/huawei-skills/ohos-dev-security-code-review",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Use when reviewing OpenHarmony native/C++ system services for security vulnerabilities, especially IPC Stub/OnRemoteRequest transaction authorization, MessageParcel/fd/callback validation, AccessToken permission checks, System Ability confused-deputy paths, cross-user/account/device access, privacy log leaks, or shared-state races.",
+   "size": 23848,
+   "sha256": "9038e6912f89a1958cddfd2692a7a65d85de38e74efae7bf4f5ec01b3fa45f5e"
+  },
+  "6a17fb718e41742dff825901": {
+   "name": "ohos-test-fuzz-generation",
+   "dir": "references/huawei-skills/ohos-test-fuzz-generation",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "为 C/C++ 项目自动生成 FUZZ 测试用例、执行安全规范审查、生成语义化种子数据（corpus）。支持 LLVM libFuzzer 框架，兼容 OpenHarmony、Linux、Android 等构建系统。\n**必须激活场景**： - 用户提及 \"fuzz 测试\"、\"生成 fuzzer\"、\"创建 fuzz 用例\"、\"fuzz 规范检查\"、\"fuzz_test\"、\"LLVMFuzzerTestOneInput\" - 需要为类/API 编写 FUZZ 测试 - 需要生成或验证 FUZZ 种子数据 - 需要检查 FUZZ 代码是否符合安全编码规范\n**能力**：代码分析 → 用例生成 → 种子构造 → 26条规则合规审查 → 自动修复 → 报告生成。\n",
+   "size": 235494,
+   "sha256": "5798702c580603176bbfa45c77e98a62523b5eabeb2bb01f04e4767724f04e34"
+  },
+  "699fb9455a554d66cf5a371f": {
+   "name": "harmonyos-autotest",
+   "dir": "references/huawei-skills/harmonyos-autotest",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Complete HarmonyOS automated testing workflow orchestrator. Converts natural language test requirements to executable Hypium test cases through step parsing, environment checking, project creation, control parsing, operation execution, debugging, and test case writing. Use when user wants to run complete automated test workflow, create HarmonyOS test projects, or mentions HarmonyOS测试, 自动化测试, run test, execute test. Trigger keywords: harmonyos test, 自动化测试, run test, test workflow, 完整测试流程, hypium, 创建测试工程.",
+   "size": 90841,
+   "sha256": "21d1a5a8290af0cf1c8e010b8233c8189259956985cd7d506b898f64222f8b48"
+  },
+  "699fb9b15a554d66cf5a3737": {
+   "name": "oh-xts-generator-template",
+   "dir": "references/huawei-skills/oh-xts-generator-template",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "OpenHarmony XTS 测试用例通用生成模板。支持各子系统测试用例生成，API 定义解析，测试覆盖率分析，代码规范检查。触发关键词：XTS、测试生成、用例生成、测试用例。",
+   "size": 233040,
+   "sha256": "68d8265a4d48d23980d10c1dc4e6d16c47ce8d07455370abf4dffa2127cb645a"
+  },
+  "6a17fb6e45371b3a70b8113e": {
+   "name": "ohos-test-arkts-xts-generation",
+   "dir": "references/huawei-skills/ohos-test-arkts-xts-generation",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Generate and validate OpenHarmony ArkTS XTS tests, including .d.ts parsing, Hypium test design, .ets generation, API coverage analysis with APICoverageDetector, batch generation, registration, build verification, and existing test quality checks. Use when the task mentions XTS, ArkTS-Dyn, ArkTS-Sta, APICoverageDetector, API coverage, Hypium, @tc annotations, test design documents, .d.ts files, .ets test files, or batch test generation.\n",
+   "size": 340009,
+   "sha256": "d7deddc7afc0c32ff775d277ff2519fba906d33990982475220d1c99642a0ad4"
+  },
+  "699fb93d5a554d66cf5a371c": {
+   "name": "gitcode-pr",
+   "dir": "references/huawei-skills/gitcode-pr",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Handle GitCode PR workflow for OpenHarmony - commit changes, push to fork remote, create issue, create PR from fork to upstream using repo's .gitee/PULL_REQUEST_TEMPLATE.zh-CN.md with issue linking via #number. Use when user wants to submit/create PR or commit changes. Auto-checks if PR exists and only pushes when PR already exists.",
+   "size": 4815,
+   "sha256": "ba03f455a417f12faf7ff6a3f4d07320abd4367015b9e80680416e879b58acf3"
+  },
+  "6a181fc48e41742dff82590c": {
+   "name": "ohos-design-graphics-explain-code",
+   "dir": "references/huawei-skills/ohos-design-graphics-explain-code",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Use this skill whenever you need to explain, analyze, or document code — including understanding how code works, tracing call flows, mapping architecture, documenting modules or features, analyzing business logic, or generating technical documentation with diagrams. Triggers on phrases like \"explain this code\", \"how does this work\", \"document this module\", \"generate docs for\", \"draw a diagram of\", \"what's the architecture\", or \"analyze the flow\". This skill uses interactive confirmation at each stage and produces markdown documentation with mermaid class and sequence diagrams.",
+   "size": 20362,
+   "sha256": "38a3be36471f877eed2365f17c2f662fde08000e06e8c84f5c81436b2d1587f1"
+  },
+  "699fb9a15a554d66cf5a3731": {
+   "name": "oh-ut-generator",
+   "dir": "references/huawei-skills/oh-ut-generator",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Generate OpenHarmony C++ unit tests following HWTEST_F framework conventions.Supports Mock strategies, BUILD.gn configuration, NDK/NAPI interfaces, and maintains 75%+ coverage requirement with strict code style consistency. Use when generating unit tests for OpenHarmony C++ source files.",
+   "size": 33163,
+   "sha256": "2c15b946ff51b4befc0f1467ea019c0ff79d24cd340b898e2403a25098823c53"
+  },
+  "699fb95a5a554d66cf5a3722": {
+   "name": "log-coverage-analyzer",
+   "dir": "references/huawei-skills/log-coverage-analyzer",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Analyze code repository logging coverage to ensure all function branches have LOGE/LOGI logs and identify high-frequency log risks. Supports multiple programming languages (C++, Java, Python, JavaScript, etc.)",
+   "size": 4329,
+   "sha256": "454447c6744be63f0e3f85cc11e77090b9802aa32c643d347a5f44b18e16c654"
+  },
+  "699fb9105a554d66cf5a3716": {
+   "name": "code-checker",
+   "dir": "references/huawei-skills/code-checker",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Scan C/C++ codebases for code quality issues including extra large files/functions and circular dependencies. Use when the user asks to check file sizes, find oversized functions, detect circular dependencies, analyze code complexity, find code smells, or identify maintainability issues in C/C++ code. Supports scanning individual files or entire directories with configurable thresholds.",
+   "size": 14637,
+   "sha256": "eaa0fe6ca0d824dcabb4e12db8054085d4177b27ee99ffd1ef7561bdf32a7f0d"
+  },
+  "699fb9e6220f26754f7ae454": {
+   "name": "openharmony-security-review",
+   "dir": "references/huawei-skills/openharmony-security-review",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Use when reviewing OpenHarmony C++ system service code for security vulnerabilities, particularly IPC handlers, multithreaded components, or code handling sensitive user data",
+   "size": 5076,
+   "sha256": "24ba7b937e0f4e8d116604f5f0e19d3b3a4e6c3f337ed9671e8a8c59f98b18b4"
+  },
+  "699fb8985a554d66cf5a3710": {
+   "name": "ai-generated-ut-code-review",
+   "dir": "references/huawei-skills/ai-generated-ut-code-review",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Use when reviewing or scoring AI-generated unit tests/UT code, especially when coverage, assertion effectiveness, or test quality is in question and a numeric score, risk level, or must-fix checklist is needed",
+   "size": 2198,
+   "sha256": "cbc7f2dda5325c01fc6a4c6e9f0fa22ba1452d31a1ca8d10f02017ca1599c291"
+  },
+  "699fb92c220f26754f7ae43c": {
+   "name": "create-pr",
+   "dir": "references/huawei-skills/create-pr",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "\"Automated PR workflow: analyze code changes, auto-generate Issue/PR descriptions, auto-commit with DCO sign-off, auto-push, auto-create Issue + PR, and link PR to Issue.\"",
+   "size": 27795,
+   "sha256": "babc4071779961276e7fd437a4f05505d9a7b8b97a7054c5238bfa99c314dbed"
+  },
+  "699fb9be220f26754f7ae44e": {
+   "name": "ohos-app-build-debug",
+   "dir": "references/huawei-skills/ohos-app-build-debug",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "\"Build, install, launch, and debug HarmonyOS/OpenHarmony applications using DevEco Studio toolchain. Use when Claude needs to: (1) Build OHOS apps with hvigorw, (2) Install HAP files to devices via hdc, (3) Launch or debug OHOS applications, (4) Parse crash stacks with hstack, (5) Take device screenshots, or (6) Detect DevEco Studio environment and SDK tools. Automatically detects DevEco Studio installation and configures JAVA_HOME, PATH, and toolchain.\"",
+   "size": 30436,
+   "sha256": "eb339dffbc30cb4612aeabf21246669afdc97ded03a2e87808cd56ef0f3fc304"
+  },
+  "6a181fc745371b3a70b8114d": {
+   "name": "ohos-dev-graphics-stability-code-review",
+   "dir": "references/huawei-skills/ohos-dev-graphics-stability-code-review",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "C/C++ 稳定性代码审查框架，包含可扩展规则体系，覆盖 5 个稳定性分类： 异常处理、并发稳定性、资源管理、边界条件、图形稳定性。 触发场景：稳定性专项全仓扫描、代码上库前本地检视、稳定性审计、故障预防检视、代码审查、OpenHarmony 稳定性扫描、 以及用户要求检查 C/C++ 代码稳定性风险时均应使用此技能。\n",
+   "size": 141563,
+   "sha256": "ed275540c943744651c488cdd56fec25f76c191756fb797f9df63a95aac5f771"
+  },
+  "699fb960220f26754f7ae442": {
+   "name": "add-memory-trace-tags",
+   "dir": "references/huawei-skills/add-memory-trace-tags",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Use when adding new resource tracking types to memory profiling in developtools_profiler and third_party_musl repositories. Triggered by requests to add trace tags, resource labels, or memory tracking types.",
+   "size": 2738,
+   "sha256": "3c49416fd5896a677b71e0bd0c5d2c31531b6a387bb64bd7c9a1a283c0411b1b"
+  },
+  "699fb8ae220f26754f7ae427": {
+   "name": "arkts-sta-playground",
+   "dir": "references/huawei-skills/arkts-sta-playground",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Execute ArkTS-Sta code snippets and files via the Playground HTTP API. Use this for testing ArkTS syntax, learning ArkTS features, verifying code logic, or demonstrating code execution results.",
+   "size": 4669,
+   "sha256": "f63f9154cc6d6933752f45a2e6388b0ff33d2081cf6d13c37acd8ac71afef0fa"
+  },
+  "699fb9f4220f26754f7ae457": {
+   "name": "openharmony-ut",
+   "dir": "references/huawei-skills/openharmony-ut",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Automate OpenHarmony unit test and fuzz test workflows including test generation, compilation, deployment to devices, and execution. Use when writing, building, or running UT/FuzzTest for OpenHarmony projects.",
+   "size": 6532,
+   "sha256": "ee335d28ed3fe80870611ab3dc3c2ced87e03f8c26302f308d33b99211efb8be"
+  },
+  "699fb990220f26754f7ae44b": {
+   "name": "oh-pdd-design-doc-generator",
+   "dir": "references/huawei-skills/oh-pdd-design-doc-generator",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "基于 PRD 文档自动生成鸿蒙系统设计文档，包括架构设计文档和功能设计文档。生成前会分析 OpenHarmony 存量代码结构，确保与现有架构兼容。架构设计文档第2章必须为竞品方案分析，位于需求背景之后。适用于用户请求：(1) 生成架构设计文档, (2) 生成功能设计文档, (3) 从 PRD 生成设计文档, (4) 创建系统架构设计, (5) 编写功能规格说明, (6) 分析 OH 代码结构。关键词：architecture design, functional design, design doc, 竞品方案分析, OpenHarmony code analysis, 架构设计, 功能设计, 设计文档生成, OH代码分析, analyze codebase, competitor analysis",
+   "size": 17614,
+   "sha256": "f9fc0a00bdf2345057f67b757894ffa945641a730e2077dbc40df7b8dd1da9af"
+  },
+  "699fb8ec5a554d66cf5a3713": {
+   "name": "arkui-api-design",
+   "dir": "references/huawei-skills/arkui-api-design",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "This skill should be used when the user asks to \"design ArkUI API\", \"add component property\", \"create Modifier method\", \"review ArkUI API\", \"deprecate API\", \"write JSDOC for ArkUI\", or mentions OpenHarmony API design standards. Provides comprehensive guidance for ArkUI component API design following OpenHarmony coding guidelines, including static/dynamic interface synchronization, SDK compilation, and verification.",
+   "size": 35042,
+   "sha256": "eb75583432e2305f44a7aa8b271484c7ba8a46b5db76b9f3f4fda83ab0d83ff0"
+  },
+  "699fb8635a554d66cf5a370d": {
+   "name": "ai-generated-business-code-review",
+   "dir": "references/huawei-skills/ai-generated-business-code-review",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Use when reviewing or scoring AI-generated business/application code quality in any language, especially when a numeric score, risk level, or must-fix checklist is requested, or when C++ code must comply with OpenHarmony C++ and security standards",
+   "size": 2439,
+   "sha256": "c99548ef68d7ad516ea04f990a419b70ceaeb11ea1e4f841877eed5c26fce7db"
+  },
+  "699fb9685a554d66cf5a3725": {
+   "name": "oh-distributed-security-design-review",
+   "dir": "references/huawei-skills/oh-distributed-security-design-review",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "OpenHarmony分布式系统安全代码检视专用技能。当用户要求\"检视代码安全实现\"、\"代码安全审查\"、\"安全代码review\"或类似的分布式系统代码安全检视请求时触发。此技能提供18条OpenHarmony分布式业务安全设计规则的详细检视指导，涵盖授权控制、状态机、数据传输、权限管理、可信关系等安全领域。使用此技能可在通用网络安全规则基础上，针对OpenHarmony分布式系统进行专项安全检视。",
+   "size": 7472,
+   "sha256": "3a36399062895b7dba3af57c8fb32aa17ec39f8ef9801e5720e6ac433629f1aa"
+  },
+  "6a17f49a3a79e364c8d3b70a": {
+   "name": "ohos-dev-gitcode-pr-review",
+   "dir": "references/huawei-skills/ohos-dev-gitcode-pr-review",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Review a GitCode pull request from a PR number or URL when `oh-gc` must fetch PR metadata, diff, and comments, local repository code must be inspected for context, and the output should be concrete findings or a GitCode submission draft. Use for GitCode PR review or comment-submission requests that depend on `oh-gc`. Do not use for generic local review, GitHub/GitLab flows, or automatic submission without explicit user confirmation.",
+   "size": 68512,
+   "sha256": "92353555f49adb0d667c7b257bc94b2b8bb2547ab6af70a66a4381709e58a1de"
+  },
+  "699fc0e05a554d66cf5a374f": {
+   "name": "arkuix-module-adapter",
+   "dir": "references/huawei-skills/arkuix-module-adapter",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Guide OHOS modules cross-platform adaptation with automated architecture analysis, code sync, and configuration generation. Use for adapting OHOS subsystem modules (@ohos.data.preferences, @ohos.intl, @ohos.multimedia.image, etc.) to Android/iOS. Provides 6-phase workflow: info collection → code sync → API analysis → architecture analysis → recommendation → implementation. Includes automated scripts for DTS analysis, architecture analysis, and configuration generation.",
+   "size": 41232,
+   "sha256": "11f67c5067dfcaf4698e5443baee5d35d4100bb999afbf571857a2859618b25d"
+  },
+  "6a17f1f28e41742dff8258f5": {
+   "name": "ohos-design-agent-instruction-quality-review",
+   "dir": "references/huawei-skills/ohos-design-agent-instruction-quality-review",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Use when auditing OpenHarmony repository coding-agent guidance such as AGENTS.md, CLAUDE.md, GEMINI.md, Codex instructions, Copilot instructions, Cursor rules, or repository agent guidance.",
+   "size": 29640,
+   "sha256": "50977aa1f5a8c5fcf9b529f0d6adafb09ce5cd6b9407c981a5a4c8ef9befa88d"
+  },
+  "699fb9985a554d66cf5a372e": {
+   "name": "oh-pdd-prd-analysis",
+   "dir": "references/huawei-skills/oh-pdd-prd-analysis",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "分析 HM Desktop PRD 文档，提取需求信息、验证完整性、检查章节顺序（需求来源→需求背景→需求价值分析→竞品分析→需求描述）、检查 KEP 定义、检测需求冲突并生成结构化分析报告。适用于用户请求：(1) 分析或审查 PRD 文档, (2) 从需求中提取 KEP 列表, (3) 检查 PRD 完整性或一致性, (4) 将需求映射到模块架构, (5) 验证 PRD 格式合规性, (6) 验证竞品分析章节完整性。关键词：PRD分析, requirement extraction, KEP验证, completeness check, chapter order validation, 竞品分析检查, analyze PRD, 需求提取, 完整性检查, 章节顺序验证",
+   "size": 21405,
+   "sha256": "d0256a65c2bf06cb78174ac5a70b8d54b7e40d0b5211d78375de78b798e8a199"
+  },
+  "6a17f49845371b3a70b81135": {
+   "name": "ohos-dev-cpp-coding-style",
+   "dir": "references/huawei-skills/ohos-dev-cpp-coding-style",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Guide OpenHarmony-flavored C++ work. Use whenever the task involves writing, modifying, scaffolding, documenting, or reviewing OpenHarmony C++ code, especially when file naming, include guards, ownership style, inheritance semantics, API comments, lambda capture rules, or project-specific convention checks matter. Prefer this skill over generic C++ guidance for OpenHarmony repositories even if the user only asks for a \"review\", \"cleanup\", \"comment fix\", or \"coding style\" pass.",
+   "size": 28782,
+   "sha256": "be5a88fd6a6e0bd021d3d45f218297108014b98507b4cd54a698a68e94b0fa25"
+  },
+  "699fb8ff220f26754f7ae430": {
+   "name": "arkweb-app-debug",
+   "dir": "references/huawei-skills/arkweb-app-debug",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "\"Debug HarmonyOS ArkWeb applications using Chrome DevTools Protocol. Use when Claude needs to: (1) Start ArkWeb debugging sessions, (2) Connect Chrome DevTools to HarmonyOS apps via hdc, (3) Inspect webview elements, console, and network, (4) Test ArkWeb applications with Chrome DevTools MCP, (5) Troubleshoot webview debugging issues, or (6) Manage port forwarding and debugging sessions. Automatically detects project configuration, device connection, and debugging sockets. Works with ohos-app-build-debug skill for complete workflow.\"",
+   "size": 17782,
+   "sha256": "74c991a5897bf3f0dac68d3506417a2a07df3dbc0da126a10a5dc0fae65006ec"
+  },
+  "6a181fc93a79e364c8d3b718": {
+   "name": "ohos-issue-graphics-cppcrash-analysis",
+   "dir": "references/huawei-skills/ohos-issue-graphics-cppcrash-analysis",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Use when analyzing OpenHarmony cppcrash faultlogs to locate root cause of native process crashes, investigating SIGSEGV/SIGABRT signals, memory corruption patterns, or call stack anomalies.",
+   "size": 11294,
+   "sha256": "a93719a2aa1bb5b4392636f95f800449cba11a660fb20516bcc5d3b9178b3f3d"
+  },
+  "699fb9715a554d66cf5a3728": {
+   "name": "oh-graphic-gitcode-pr-creator",
+   "dir": "references/huawei-skills/oh-graphic-gitcode-pr-creator",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Automate Gitcode Pull Request creation workflow for OpenHarmony graphic subsystem including code commit, issue creation, and PR submission with proper template formatting. Use when user needs to create a PR for the Gitcode platform, especially for OpenHarmony graphic projects that require specific PR templates with CodeCheck tables and Signed-off-by tags.",
+   "size": 1925,
+   "sha256": "5ec2ae697bed1915136478762fe38ff409736bef2d0e5cafdd6a8303d018c41a"
+  },
+  "699fb9875a554d66cf5a372b": {
+   "name": "oh-pdd-code-generator",
+   "dir": "references/huawei-skills/oh-pdd-code-generator",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "基于设计文档自动生成鸿蒙系统代码框架，包括 IDL 接口定义、目录结构、头文件、源文件模板、构建配置等。生成前会分析 OpenHarmony 存量代码，学习现有代码风格和架构规范。适用于用户请求：(1) 生成代码框架, (2) 创建 IDL 接口, (3) 生成 BUILD.gn 配置, (4) 创建服务代码, (5) 初始化项目结构, (6) 参考现有代码风格。关键词：code generation, IDL, BUILD.gn, bundle.json, SA profile, OpenHarmony code style, 代码生成, 接口定义, 构建配置, OH代码风格",
+   "size": 13594,
+   "sha256": "62e37310c2c2e063e71e8d8eb3657fc9f3370e0d5fbe464832c9a925da974fcc"
+  },
+  "6a17f4963a79e364c8d3b707": {
+   "name": "ohos-dev-arkts-sta-playground",
+   "dir": "references/huawei-skills/ohos-dev-arkts-sta-playground",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Execute isolated ArkTS-Sta snippets or .ets files through the remote ArkTS-Sta Playground compile API. Use when validating ArkTS static syntax, checking small language-feature examples, reproducing compiler diagnostics, comparing expected compile failures, batch-checking standalone snippets, or demonstrating snippet output before using a real OpenHarmony project build.",
+   "size": 4525,
+   "sha256": "9c0bd0051a0fae5855da6151be40c3c8a744ec5625b0b3adf51291e23d522745"
+  },
+  "699fb97f220f26754f7ae448": {
+   "name": "oh-interfaces-ipc-to-service",
+   "dir": "references/huawei-skills/oh-interfaces-ipc-to-service",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "在Openharmony项目的graphic_2d仓新增透传通路。当用户希望在graphic_2d仓新增RSInterface接口，且指明该接口为ToSerivce时，调用该能力",
+   "size": 1863,
+   "sha256": "2d0ada19bd03d0d57abb7929d2eb21730b8cbc19ba6ea1d764caa3373d180662"
+  },
+  "6a17f0948e41742dff8258f2": {
+   "name": "ohos-ci-openharmony-ci-analysis",
+   "dir": "references/huawei-skills/ohos-ci-openharmony-ci-analysis",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Use when investigating OpenHarmony PR CI status from `openharmony_ci` comments, DCP event IDs, build labels, artifact links, or CI log URLs.",
+   "size": 12027,
+   "sha256": "285c176ed632cd8ebd57841b0e30add91c0acbaa877e0a58c061af3e405a0b41"
+  },
+  "699fb977220f26754f7ae445": {
+   "name": "oh-graphic-pixel-tests-generator",
+   "dir": "references/huawei-skills/oh-graphic-pixel-tests-generator",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "用于OH-图形-像素级比对用例编写。本技能为AI助手生成OpenHarmony图形测试代码提供完整的框架参考、API文档和代码模板。",
+   "size": 12942,
+   "sha256": "85d4c5e6bd604064aef99b4fc4ccd8823dad9eaf531edfa9ee3472991a10f936"
+  },
+  "699fb951220f26754f7ae43f": {
+   "name": "header-optimization",
+   "dir": "references/huawei-skills/header-optimization",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "This skill should be used when the user asks to \"optimize header files\", \"reduce header dependencies\", \"优化头文件\", \"减少头文件依赖\", \"analyze compilation efficiency\", \"分析编译效率\", or mentions test_header.cpp analysis. This skill optimizes C++ header file compilation efficiency through systematic refactoring.",
+   "size": 53331,
+   "sha256": "e6de5465d649553f8e05906c8835cd3cad11d2e26d3cef4e21b6abafb451de82"
+  },
+  "6a181fc385d6af77b47b17e6": {
+   "name": "ohos-dev-arkweb-thread-safety-review",
+   "dir": "references/huawei-skills/ohos-dev-arkweb-thread-safety-review",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Must use when scanning or reviewing OpenHarmony ArkWeb/Chromium C++ single files for thread-safety violations involving PostTask, BindOnce, base::Unretained(this), WeakPtr, scoped_refptr, mojo::Connector, GPU/Audio/DrDC threads, NDK/UI callbacks, NWeb, WebContents, Profile, BrowserContext, NavigationController. Enforces false-positive control and outputs strict JSON schema violations for standard_rule1-standard_rule10 only.",
+   "size": 25604,
+   "sha256": "5ad6f12468f011a91fd9ac140c82dca3225d285ed0117effd23c9cd5303b9e0e"
+  },
+  "699fb9fc5a554d66cf5a3746": {
+   "name": "xts-generator",
+   "dir": "references/huawei-skills/xts-generator",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Generate OpenHarmony XTS (Compatibility Test Suite) test cases from API documentation. Use when generating or modifying XTS test files (.ets) for OpenHarmony API testing, including: (1) Creating new test files from API documentation, (2) Adding test cases for new methods, (3) Generating tests for enum types, (4) Creating optional parameter combination tests, (5) Writing exception/boundary test cases. This skill enforces strict type safety (no `any`/`unknown`), proper error handling (single error code assertions), and Hypium test framework conventions.",
+   "size": 8394,
+   "sha256": "ecc9ccce3f4899ba4477441582bf2b99619c707d8a2c2fe691928d0e0499f3b0"
+  },
+  "699fbe8b220f26754f7ae45a": {
+   "name": "comprehensive-code-review",
+   "dir": "references/huawei-skills/comprehensive-code-review",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Comprehensive code review system for ACE Engine (OpenHarmony ArkUI framework) covering C++, JavaScript, TypeScript, and ArkTS codebases. Performs automated analysis across 19+ dimensions: stability, performance, threading, security, memory management, Modern/Effective C++ practices, code smells, SOLID principles, design patterns, robustness, testability, maintainability, observability, API design, technical debt, and backward compatibility. Generates detailed review reports with severity levels (CRITICAL/HIGH/MEDIUM/LOW), actionable refactoring recommendations with before/after examples, and ACE Engine project-specific checks including Pattern/Model/Property separation, component lifecycle methods (OnModifyDone, OnDirtyLayoutWrapperSwap), RefPtr usage (MakeRefPtr, DynamicCast), WeakPtr for breaking cycles, and four-layer architecture compliance. Use when: (1) Reviewing pull requests or code changes, (2) Analyzing existing codebases for quality issues, (3) Enforcing coding standards and",
+   "size": 5317,
+   "sha256": "e6d9a94af65b2cc402b2e4ffc9c0080925334ee33557495e0bf5b5fd5fdd3408"
+  },
+  "699fb9c65a554d66cf5a373a": {
+   "name": "ark-layer",
+   "dir": "references/huawei-skills/ark-layer",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "基于 ArkTS 的鸿蒙应用开发框架助手。提供架构规范检查、Service 代码生成、多阶段加载配置、分层验证等功能，帮助开发者快速构建符合规范的鸿蒙应用。",
+   "size": 34306,
+   "sha256": "e9e618086262ebb6e16d32847abe0b7f23d0188c1e31337ee429ef62152bdc84"
+  },
+  "699fb9355a554d66cf5a3719": {
+   "name": "generate-interface-uml",
+   "dir": "references/huawei-skills/generate-interface-uml",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "This skill should be used when user asks to \"generate UML\", \"create sequence diagram\", \"生成时序图\", \"生成类图\", \"generate PlantUML\", or discusses generating UML diagrams for new interfaces or API design.",
+   "size": 3213,
+   "sha256": "1ee5b2146a1c83e4d59b129ba119155662785688a5524440ad22964f2f086bc8"
+  },
+  "699fb924220f26754f7ae439": {
+   "name": "cpp-include-sorter",
+   "dir": "references/huawei-skills/cpp-include-sorter",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Automatically sorts C/C++ header files (#include statements) with full support for conditional compilation blocks. Use when Claude needs to organize #include statements in .cpp/.h files. Handles: (1) Corresponding header placement first (e.g., file.cpp includes file.h), (2) System headers (<>) sorted alphabetically, (3) Local headers (\"\") sorted alphabetically, (4) Conditional compilation blocks (#ifdef/#ifndef/#if defined) where headers participate in global sort while preserving block structure. Key features: prefers longer paths for duplicate includes, preserves inline/preceding comments, handles #elif/#else blocks, validates no headers are lost.",
+   "size": 4959,
+   "sha256": "c697e5ca94244669cbc96446b8110a69032724ba4a014de579e02cdb987fc910"
+  },
+  "699fb91a220f26754f7ae436": {
+   "name": "cpp-core-guidelines-review",
+   "dir": "references/huawei-skills/cpp-core-guidelines-review",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Parallel C++ Core Guidelines code review using multiple specialized sub-agents. Use when reviewing C++ code, modules, or files against C++ Core Guidelines to identify violations. Each sub-agent reviews against a specific guideline section (Functions, Classes, Resource Management, etc.) and outputs findings to separate markdown files in the review/ directory, followed by a consolidated summary.",
+   "size": 240110,
+   "sha256": "6def602627e2a6b613da9d0dd01d3c9aa6dae51ab69891b33a8e84d7dfbfa148"
+  },
+  "69a103fc5a554d66cf5a3773": {
+   "name": "coding-agent",
+   "dir": "references/huawei-skills/coding-agent",
+   "tags": [
+    "OpenHarmony",
+    "awesome"
+   ],
+   "description": "Run Codex CLI, Claude Code, OpenCode, or Pi Coding Agent via background process for programmatic control. metadata: {\"clawdbot\":{\"emoji\":\"🧩\",\"requires\":{\"anyBins\":[\"claude\",\"codex\",\"opencode\",\"pi\"]}}}",
+   "size": 3661,
+   "sha256": "4ed2e4583bb07ca2038779e4095e8605fcea3a384dcf27f255735e5f8c8d7bf7"
+  },
+  "6a181fc145371b3a70b81148": {
+   "name": "ohos-issue-arkruntime-thread-safety-audit",
+   "dir": "references/huawei-skills/ohos-issue-arkruntime-thread-safety-audit",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Use this skill when auditing, reviewing, or fixing thread-safety issues in ArkCompiler Runtime Core, especially ArkTS-Sta ETS stdlib and plugin code under static_core/plugins/ets. It covers static mutable state, singleton initialization, shared maps/caches/counters/timers, taskpool/EAWorker concurrency, TSAN follow-up, and concurrent test design.",
+   "size": 6813,
+   "sha256": "f8f1f0d4346497c5f72b957c4f5351f059ceaacf3cf8b1378a221576138ced72"
+  },
+  "6a17f49c85d6af77b47b17ce": {
+   "name": "ohos-dev-napi-module",
+   "dir": "references/huawei-skills/ohos-dev-napi-module",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Use when developing, debugging, porting, or reviewing OpenHarmony/HarmonyOS NAPI native modules, ArkTS native bindings, napi_module registration, BUILD.gn ace_napi shared libraries, DECLARE_NAPI macros, async work, Sendable/QoS/serialization APIs, or behavior differences from Node.js N-API.",
+   "size": 11619,
+   "sha256": "d662d8f65e030814cae3834f619c934f9a2cb55cdcf24aeea7fe02883b14efb5"
+  },
+  "699fb907220f26754f7ae433": {
+   "name": "build-error-analyzer",
+   "dir": "references/huawei-skills/build-error-analyzer",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "This skill should be used when the user asks to \"分析构建错误\", \"analyze build errors\", \"查看编译错误\", \"检查构建日志\", \"诊断链接错误\", \"fix build errors\", \"resolve compilation errors\", \"分析 last_error.log\", \"extract build error\", \"分析SDK的编译错误\", \"分析 SDK 编译错误\", \"analyze SDK build errors\", \"check SDK errors\", \"诊断 sdk 编译错误\", or mentions analyzing build failures, compilation errors, linker errors, undefined symbols, SDK compilation errors, or needs to fix build issues. Focuses on reading last_error.log from out/<product>/ directory (or out/sdk/ for SDK builds) and providing specific fix recommendations based on error patterns and historical cases.",
+   "size": 78526,
+   "sha256": "992fb75c4f1aae3c74db8679ba8479b4764d486174b7a99b6bad4861d04443e2"
+  },
+  "699fbf2e5a554d66cf5a374c": {
+   "name": "dsoftbus-security",
+   "dir": "references/huawei-skills/dsoftbus-security",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "OpenHarmony软总线代码安全检视专家 - 全面检查C/C++代码的安全编码规范和日志规范。   涵盖40+条安全规则，包括指针安全、内存管理、锁管理、敏感信息保护等关键领域。   提供跨文件调用分析和控制流分析，生成详细的代码审查报告。   仅在用户输入包含\"软总线安全卫士\"时触发。   ⚠️ 重要：此技能为只读审查工具，不修改源文件",
+   "size": 17674,
+   "sha256": "45bd5a296552e486b6792410511b291089f84f5271094d266d3a8fba53002c69"
+  },
+  "699fb9a95a554d66cf5a3734": {
+   "name": "oh-xts-build-run",
+   "dir": "references/huawei-skills/oh-xts-build-run",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "OpenHarmony XTS 编译和运行组合命令。一站式完成 XTS 测试项目的编译和运行。当用户需要执行完整的 XTS 测试流程时使用此 Skill： (1) 编译 XTS 测试项目生成 HAP 文件，(2) 运行 XTS 测试并展示结果。支持 --package 和 --api 参数传递给运行阶段。",
+   "size": 1284,
+   "sha256": "acdd654a2ed505f5c7757d627c87e7e0419f31fa687d8cee7231efd2cb3cbb4c"
+  },
+  "699fbe865a554d66cf5a3749": {
+   "name": "compile-analysis",
+   "dir": "references/huawei-skills/compile-analysis",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "This skill should be used when the user asks to \"分析编译效率\", \"分析编译时间\", \"查看头文件依赖\", \"保存编译命令\", \"提取编译命令\", \"生成编译脚本\", \"保存这个文件的编译命令\", \"单独编译这个文件\", \"编译单个文件\", \"单编文件\", \"独立编译文件\", \"分析这个文件的头文件依赖\", \"头文件依赖关系\", \"这个文件依赖了多少头文件\", \"analyze compilation\", \"check header dependencies\", \"分析文件编译开销\", \"save compile command\", \"extract compile command\", \"generate compile script\", \"compile single file\", \"compile individual file\", \"standalone compile\", \"analyze header dependencies\", \"header dependency tree\", \"how many header files\", or mentions analyzing compilation performance, build times, include dependencies, extracting/saving compilation commands, generating standalone compilation scripts, compiling individual files in isolation, or analyzing header file dependency relationships for specific source files in the ace_engine project. Provides comprehensive compilation efficiency analysis including timing, resource usage, dependency tree visualization with automatic saving, the ability to save reusable compilation scrip",
+   "size": 6706,
+   "sha256": "3501f374b4eccc9c20ebb45ae777a82e9c9452139ff73d9eb2eca06794870f2a"
+  },
+  "6a181fc085d6af77b47b17e3": {
+   "name": "ohos-issue-arkruntime-taskpool-dependency-analysis",
+   "dir": "references/huawei-skills/ohos-issue-arkruntime-taskpool-dependency-analysis",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Analyze, diagnose, and fix taskpool task dependency problems in static ArkTS — including circular dependency (10200026), missing dependency (10200027), dependent tasks not waking after dependency completion, cancel propagation through dependency chains, and illegal addDependency/removeDependency on periodic/group/seqRunner/asyncRunner/executed tasks. Use this skill whenever the user mentions taskpool dependencies, addDependency, removeDependency, circular dependency, dependency graph, task not executing after dependencies complete, cancel propagation, or any taskpool error codes 10200026, 10200027, 10200070, 10200071, 10200073, 10200074, 10200079, 10200097, 10200101, 10200113 — even if they don't explicitly say 'dependency' or 'taskpool'.",
+   "size": 12101,
+   "sha256": "901d33cba2df8215a1da4a2deeb6d66103e1790a282a5cf602f225deedd78d75"
+  },
+  "699fb9ed5a554d66cf5a3743": {
+   "name": "ohos-chromium-security-review",
+   "dir": "references/huawei-skills/ohos-chromium-security-review",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "OpenHarmony/Chromium 深度代码审计技能 - 专注于线程安全、生命周期管理和逻辑漏洞",
+   "size": 11079,
+   "sha256": "2c92b77ea1ad40072535b61cd439f6b3765774072142459af8399c94855168e4"
+  },
+  "6a17f49b45371b3a70b81138": {
+   "name": "ohos-dev-hdc-command-usage",
+   "dir": "references/huawei-skills/ohos-dev-hdc-command-usage",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Use when HarmonyOS or OpenHarmony OS development uses hdc for remount, system partition writes, file send or recv, log collection, hilog, bugreport, crash or tombstone retrieval, device connection failures, USB or TCP targets, multiple connected devices, automation or CI scripts, shell commands, sandbox access, HAP/HSP/APP install or uninstall, port forwarding, hdc service logs, or errors such as Empty, Unauthorized, Offline, Connect failed, or Failed to communicate with daemon.",
+   "size": 8442,
+   "sha256": "cc22531dba378ce5332960a73a66a22a0bc437596ad6078d46b13b78aa5c1588"
+  },
+  "6a181fca85d6af77b47b17ea": {
+   "name": "ohos-issue-graphics-sysfreeze-analysis",
+   "dir": "references/huawei-skills/ohos-issue-graphics-sysfreeze-analysis",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Use when analyzing OpenHarmony sysfreeze/appfreeze logs to diagnose process freeze and thread blocking issues. Triggers on SERVICE_BLOCK, THREAD_BLOCK_6S, IPC deadlock, task queue blocking, or when user requests sysfreeze/process stuck analysis.",
+   "size": 7400,
+   "sha256": "b1470df3bcc487c5c5f73f2b7271fb8c30790126257728ea1f7abf030aae075b"
+  },
+  "6a181fc53a79e364c8d3b715": {
+   "name": "ohos-dev-graphics-3d-combined-postprocess",
+   "dir": "references/huawei-skills/ohos-dev-graphics-3d-combined-postprocess",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Implement OpenHarmony Graphics3D Combined post-processing effects across LumeRender, Lume3D, and LumeScene. Use when adding or modifying single-pass fullscreen effects such as tone mapping, color grading, vignette, white balance, color adjustments, shader factors, ECS components, or scene-facing post-process APIs in the Combined post-process pipeline.\n",
+   "size": 13459,
+   "sha256": "60170ebe3888c4e0e0e536d143760f348130be26791fe7d9b43c7cf67c842e0d"
+  },
+  "6a181fc78e41742dff82590f": {
+   "name": "ohos-test-graphics-3d-static-api-unit-test",
+   "dir": "references/huawei-skills/ohos-test-graphics-3d-static-api-unit-test",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Use when generating unit tests for ETS/ArkTS static API classes in OpenHarmony graphic_3d module, when adding new test cases for MaterialETS, CameraETS, SceneETS or similar wrapper classes, or when setting up test environment for GTest-based ETS unit tests",
+   "size": 8186,
+   "sha256": "80b42219d2d5640c981fd6247d19bb52eeb52797e716b36b7d6f971b2af8142c"
+  },
+  "6a181fc28e41742dff825909": {
+   "name": "ohos-dev-arkui-code-review",
+   "dir": "references/huawei-skills/ohos-dev-arkui-code-review",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Review OpenHarmony ArkUI / ACE Engine code for correctness, safety, memory ownership, threading, security, architecture compliance, and maintainability. Use when the user explicitly asks to review PRs or code changes, audit security, find memory leaks, analyze code quality, check RefPtr/WeakPtr/ MakeRefPtr usage, inspect unsafe callback captures, detect data races, verify four-layer architecture or Pattern/Model/Property separation, or produce severity-ranked review findings. Relevant contexts include components_ng/, frameworks/core/, bridge/, adapter/, AceType, MakeRefPtr, DynamicCast, WeakClaim, FrameNode, Pattern, LayoutProperty, and RefPtr. Do not use for general development, debugging, build fixes, or architecture Q&A unless review or audit is explicitly requested.\n",
+   "size": 26936,
+   "sha256": "c840b886ad3ac8dd08e7d86ed7e003d61588b91b33ea8c805a8616cf5f8882a5"
+  },
+  "6a181fc88e41742dff825913": {
+   "name": "ohos-test-graphics-pixel-tests-generator",
+   "dir": "references/huawei-skills/ohos-test-graphics-pixel-tests-generator",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "务必在创建、修改、评审或调试 OpenHarmony graphic_2d graphic_test 像素比对测试时使用；只要用户提到 RSGraphicTest、GRAPHIC_TEST、GRAPHIC_TESTS、GRAPHIC_N_TEST、Rosen 渲染测试、RSCanvasNode、RSSurfaceNode、Drawing::Canvas、PixelMap、截图测试、graphic_test 目录或 /data/local/graphic_test 图片，就必须使用。",
+   "size": 13993,
+   "sha256": "2725f2dbd121095aad16abf276cb54798cfaaad82e4a843600b00d18f75cf605"
+  },
+  "699fb8f4220f26754f7ae42d": {
+   "name": "menu-debug",
+   "dir": "references/huawei-skills/menu-debug",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "This skill should be used when user asks to \"Menu宽度为0\", \"Menu宽度问题\", \"Menu显示异常\", \"Menu子窗口问题\", \"Menu layout异常\", \"recreate subwindow\", \"快速打开Menu问题\", \"Menu闪退\", \"Menu位置错误\", \"子窗口recreate\", \"Menu崩溃\", \"Menu打印recreate\", \"点击无响应\", \"点击菜单关闭\", \"菜单位置左上角\", \"菜单方向不对\", \"菜单避让坑\", \"宽度高度为0\", or mentions any Menu component issues like Menu width being 0, Menu display problems, Menu subwindow issues, Menu layout exceptions, positioning errors, crashes, click response issues, menu closing immediately, incorrect positioning, direction issues, safe area issues, or zero width/height problems. Provides systematic debugging guidance for Menu component issues including width problems, subwindow recreation, layout exceptions, positioning errors, crash analysis, click issues, menu positioning, and dimension problems with automatic log enhancement patch generation.",
+   "size": 16396,
+   "sha256": "a97db8996050dab3b33f038b57c8e787f1741aa304be67d28cfb2502c7993e50"
+  },
+  "6a4d0414b0f3601602323d61": {
+   "name": "ohos-dev-arkruntime-base-lib-code-review",
+   "dir": "references/huawei-skills/ohos-dev-arkruntime-base-lib-code-review",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "审查基础库仓库（arkcompiler_runtime_core、third_party_musl、commonlibrary_c_utils 等）的 C/C++/ArkTS 代码变更，关注代码质量、语言特有问题和领域专属问题。适用于审查基础库 PR、检查信号安全性、验证 libc 符号导出兼容性、或对基础库代码进行通用审查。关键词：base library, code review, PR review, signal-safe, libc.map, 符号导出, 接口兼容性, musl, c_utils, runtime_core, 基础库, 代码审查, 代码review, 信号安全, ABI兼容",
+   "size": 16351,
+   "sha256": "296c09006fd7273792617c3e664995c95168b6e170dbb902c7d2468992b48ea0"
+  },
+  "69b0cbd9b2680f36739c8d5e": {
+   "name": "combined-postprocess-impl",
+   "dir": "references/huawei-skills/combined-postprocess-impl",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Guide for implementing COMBINED post-processing effects in LumeRender/Lume3D/LumeScene. Use when (1) implementing effects that run in a single fullscreen shader pass (tone mapping, color grading, vignette, etc.), (2) adding effects to the Combined post-process system, (3) user mentions \"Combined post-process\" or \"后处理\" in context of single-pass effects. DOES NOT apply to effects requiring separate render passes (bloom with blur passes, depth-of-field, motion blur, etc.).",
+   "size": 9846,
+   "sha256": "eb3bf1f292f3d83806efa01f49dcbb732cfb014395505327b92001ed26fb4988"
+  },
+  "6a4d0410b0f3601602323d55": {
+   "name": "ohos-design-arkts-api-review",
+   "dir": "references/huawei-skills/ohos-design-arkts-api-review",
+   "tags": [
+    "OpenHarmony",
+    "鸿蒙PC"
+   ],
+   "description": "鸿蒙 ArkTS API 接口设计的规范性检视。覆盖命名、接口设计、同步异步、异常处理、类型数据、注释、事件命名、结构定义等 54 条规则。\n触发场景：检视/审查/评审鸿蒙 ArkTS API 接口设计（.ts、.ets 文件中的 API 声明），API 命名审查、接口签名设计评审、参数设计检查、注释规范审查、错误码设计评审、同步异步设计检查等。",
+   "size": 101913,
+   "sha256": "f62463ed2486a2acb3986d3765a29f5774acf2d00681dc0c0cbd3784e125110f"
+  },
+  "6a4d0411b0f3601602323d5b": {
+   "name": "ohos-dev-arkruntime-interop-promise",
+   "dir": "references/huawei-skills/ohos-dev-arkruntime-interop-promise",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "ETS-JavaScript interop Promise bridging system in ArkCompiler. Use this skill when working on cross-language Promise conversion between ETS (ArkTS) and JavaScript, including JSConvertPromise Wrap/Unwrap, EtsPromise proxy creation, EtsPromiseRef bridging, CreatePromiseLink, OnJsPromiseCompleted callbacks, connectPromise, SettleJsPromise, PromiseInteropResolve/Reject, EtsAwaitPromise/AwaitProxyPromise, callback queue management, or any code under js_convert.h (Promise section), js_job_queue, ets_promise, ets_promise_ref, std_core_Promise.cpp, or PromiseInterop.ets. Also use when debugging cross-VM Promise state synchronization, coroutine suspension/resumption during await, or napi_deferred lifecycle issues.",
+   "size": 14521,
+   "sha256": "b56feb34b9163407a71241757ebbb43fe9438088c64182cca91575115645a0da"
+  },
+  "6a4d0415b0f3601602323d67": {
+   "name": "ohos-issue-arkruntime-gc-debugging",
+   "dir": "references/huawei-skills/ohos-issue-arkruntime-gc-debugging",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Use when diagnosing GC-related bugs in ArkCompiler runtime, including crashes during mark/sweep, missing write barriers, dangling pointers, AfterGC verify failures, long STW pauses, or weak ref issues. Triggered when working under ecmascript/mem/**.",
+   "size": 7356,
+   "sha256": "32bac35cc9474a4f2e585e7f652d50b1d67d96241139a5cd3c43e35d806b5e3f"
+  },
+  "6a4d0408b0f3601602323d43": {
+   "name": "ohos-dev-sa-codegen",
+   "dir": "references/huawei-skills/ohos-dev-sa-codegen",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Use when developing OpenHarmony SystemAbility (SA): generating IDL-based SA\nframework code from scratch, migrating hand-written Proxy/Stub to IDL mode,\nor modifying existing SA code (adding interfaces, updating configs, adding\ndependency listeners). Covers IDL definition, Proxy/Stub generation, SA\nregistration, profile configuration, CFG process configuration, and SELinux\nrules. Triggers: \"新建 SA\", \"创建 SA\", \"生成 SA\", \"迁移到 IDL\", \"修改 SA\",\n\"SystemAbility 开发\", \"SA 框架代码\".",
+   "size": 23757,
+   "sha256": "d8d7a5f9d19edb248003fa4237463c7b58671fe49038b47b183e653730105451"
+  },
+  "6a4d040fb0f3601602323d4f": {
+   "name": "ohos-dev-arkweb-build-execution-diagnosis",
+   "dir": "references/huawei-skills/ohos-dev-arkweb-build-execution-diagnosis",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Use when executing or diagnosing ArkWeb builds, including 编译 ArkWeb, build ArkWeb, build_arkweb.sh, rk3568_64 or rk3568 targets, incremental build verification, src/out/<product>/build.log analysis, and ArkWeb native or browser build-target troubleshooting.",
+   "size": 39137,
+   "sha256": "d393985f391846d56638b0f4b042e7ef08b9705399f17578fb24b12cb2b930a8"
+  },
+  "6a4d040fb0f3601602323d52": {
+   "name": "ohos-issue-arkruntime-aot-debugging",
+   "dir": "references/huawei-skills/ohos-issue-arkruntime-aot-debugging",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Use when diagnosing, localizing, or fixing OpenHarmony ArkRuntime AOT issues, including compiler_service launch or argument failures, dynamic/static AOT mode selection, .an artifact generation or reuse, ark_aot startup/runtime initialization failures, ark_aot crashes during PAOC compilation, PAOC compilation or profile problems, AOT loading/link failures, and AOT execution issues such as crash, deopt, throw/fallback, bytecode-machine-code mismatch, or compiled-code evidence correlation.",
+   "size": 34839,
+   "sha256": "161fa391cff333be63ff79bc28615e424b494075064d81b90b257518b33b76b9"
+  },
+  "6a4d0407b0f3601602323d37": {
+   "name": "ohos-design-c-api-review",
+   "dir": "references/huawei-skills/ohos-design-c-api-review",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "鸿蒙 C API 接口设计的规范性检视。覆盖命名、接口设计、指针/缓冲区、异常处理、类型数据、注释、结构定义等 50 条规则。\n触发场景：检视/审查/评审鸿蒙 C API 接口设计（.h 文件中的 API 声明），API 命名审查、函数签名设计评审、参数设计检查、注释规范审查、错误码设计评审、指针/缓冲区规范检查等。",
+   "size": 68465,
+   "sha256": "f4145e722ce00f90177657d993e03b796c654be70c5e82b65b3b4e02586b4b8d"
+  },
+  "6a4d0408b0f3601602323d40": {
+   "name": "ohos-dev-chinese-docs-review",
+   "dir": "references/huawei-skills/ohos-dev-chinese-docs-review",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Check whether OpenHarmony API documentation follows the required templates and whether public API docs, system API docs, error code docs, and interface declarations/comments/implementations are consistent. Use when the user asks to review API doc quality, compare docs against code, audit error code docs, fill missing interface documentation, or generate a doc issue report.",
+   "size": 63462,
+   "sha256": "049564e5b0b4bc83da57d1104e8f5a0e0872a499c20eca32e5b6459834ca91ab"
+  },
+  "6a4d0407b0f3601602323d3a": {
+   "name": "ohos-design-arkui-knowledgebase-generator",
+   "dir": "references/huawei-skills/ohos-design-arkui-knowledgebase-generator",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": ">-",
+   "size": 17332,
+   "sha256": "076a7e31780a83c1f427adec817ada929bf316e6a2963b8ac99a91ba32d389cb"
+  },
+  "6a4d0407b0f3601602323d3d": {
+   "name": "ohos-issue-taskpool-worker-scaling-analysis",
+   "dir": "references/huawei-skills/ohos-issue-taskpool-worker-scaling-analysis",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Diagnose ETS std.concurrency.taskpool task backlog, slow task execution, worker scaling failures, blocked workers, priority starvation, idle worker shrink issues, or worker close/join hangs. Use when logs, code, tests, or issue reports mention taskpool waiting tasks, tasks not executing, long tasks blocking short tasks, workers not expanding, workers shrinking unexpectedly, priority delays, global task queues, GlobalQueueWorker, managerWorker, blocked worker monitor, or taskpool shutdown hangs.",
+   "size": 12168,
+   "sha256": "acfbc47ec5432db6aa94566595efbbdc4c9fc8aeb6f60daf6f58e012a3428d64"
+  },
+  "6a4d040eb0f3601602323d49": {
+   "name": "ohos-dev-arkui-ace-engine-build",
+   "dir": "references/huawei-skills/ohos-dev-arkui-ace-engine-build",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Build ACE Engine with arkui-specific knowledge: when --fast-rebuild is safe (GN change detection),\ncoverage for ace_engine_test, SDK build constraints, host UT (TDD) builds for x86 local execution,\nand test list builds from unittest_targets.txt. Use when user says 编译/build ace_engine, 编译测试,\n编译SDK, 快速编译, host测试, TDD, or mentions ace_engine_test, rk3568, host_product.",
+   "size": 18761,
+   "sha256": "aea8e70a4f237f53e8a25be8376c856dfe2e764c05177f1b78739072a2e65d1a"
+  },
+  "6a4d0412b0f3601602323d5e": {
+   "name": "ohos-dev-build-execution-diagnosis",
+   "dir": "references/huawei-skills/ohos-dev-build-execution-diagnosis",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Use when executing or diagnosing OpenHarmony builds, including 编译OpenHarmony/完整代码/测试/SDK/host/最小模拟器/全量模拟器/部件独立编译/测试列表, targeted component/test builds, fast rebuilds, hb independent builds, and build.log failure analysis.",
+   "size": 39476,
+   "sha256": "7a610a4ff4d2b277d2c8c75a44deb06990ea37e59d570bf7ca5e38fbc8d9499e"
+  },
+  "6a4d0414b0f3601602323d64": {
+   "name": "ohos-dev-arkui-header-optimization",
+   "dir": "references/huawei-skills/ohos-dev-arkui-header-optimization",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Optimize C++ header files in ace_engine to reduce compilation time and memory.\nUse when user says 优化头文件/optimize header, 减少依赖/reduce dependencies, forward declaration,\nor mentions header compilation overhead.",
+   "size": 35716,
+   "sha256": "183743af80caba54756d1c7645a31c7b5e994d78967efd3e03912d54cc36688e"
+  },
+  "6a4d0416b0f3601602323d6a": {
+   "name": "ohos-design-arkui-spec-generator",
+   "dir": "references/huawei-skills/ohos-design-arkui-spec-generator",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": ">-",
+   "size": 27489,
+   "sha256": "36202ac304d02e8a6bf09d8df08d4a9b8b5a4fd082bf72531312d51509eb544f"
+  },
+  "6a4d040eb0f3601602323d4c": {
+   "name": "ohos-dev-arkui-compile-analysis",
+   "dir": "references/huawei-skills/ohos-dev-arkui-compile-analysis",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Measure compilation time, peak memory, and header dependency trees for individual ACE Engine\nsource files. Generates reusable compilation scripts for before/after benchmarking.\nUse when user says 分析编译效率/analyze compilation, 头文件依赖/header dependencies,\n单独编译/compile single file, or mentions .ii files, dependency tree.",
+   "size": 23005,
+   "sha256": "0e236971a005048ef3a9b28e008aa9154ca7d32cc7b3edd5e248b226d80eb2db"
+  },
+  "6a4d0410b0f3601602323d58": {
+   "name": "ohos-dev-arkuix-framework-api-adapter",
+   "dir": "references/huawei-skills/ohos-dev-arkuix-framework-api-adapter",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Guide OHOS modules cross-platform adaptation with automated architecture analysis, code sync, configuration generation, and E2E verification. Use for adapting OHOS subsystem modules (@ohos.data.preferences, @ohos.intl, @ohos.multimedia.image, etc.) to Android/iOS. Provides 7-phase workflow: info collection → code sync → API analysis → architecture analysis → recommendation → implementation → E2E verification. Also covers app-level NAPI platform extension (平台扩展) for developers without OHOS source code — uses CMake + Gradle/Xcode instead of BUILD.gn. Includes automated scripts for DTS analysis, architecture analysis, and configuration generation.\nDo NOT use for: adapting existing C++ native modules to Android/iOS (that requires a different C++ adapter workflow).\n触发关键词：\"模块适配\"、\"跨平台适配\"、\"架构模式分析\"、\"DTS分析\"、\"E2E验证\"、\n\"平台扩展\"、\"扩展@ohos\"、\"NAPI平台扩展\"、\"app-level adaptation\"、\n\"module adaptation\"、\"architecture analysis\"、\"OHOS cross-platform\"、\"cross-platform test\"、\n\"platform extension\"、\"nm_modname\"、\"CMake配",
+   "size": 88601,
+   "sha256": "79484843e2c3f6fcf59de104f8dfaada2988fa0840dd31782b88d007819c4e38"
+  },
+  "6a4d040cb0f3601602323d46": {
+   "name": "ohos-dev-arkui-build-error-analyzer",
+   "dir": "references/huawei-skills/ohos-dev-arkui-build-error-analyzer",
+   "tags": [
+    "OpenHarmony"
+   ],
+   "description": "Analyze ACE Engine build errors from last_error.log and provide fix recommendations.\nCovers compilation errors, linker errors (undefined symbol), and build system (GN/Ninja) issues.\nUse when user says 分析编译错误/analyze build errors, fix linker errors, fix build, or mentions\nlast_error.log, build.log. Analysis-only, no auto-modifications.",
+   "size": 53855,
+   "sha256": "dabde1753b88dbda753ad3912dc27ced600682902cab2a4426fdfbddfbd007d3"
+  },
+  "6a6aeac2210fe27bd24702d9": {
+   "name": "native-view-finder",
+   "dir": "references/huawei-skills/native-view-finder",
+   "tags": [
+    "ArkTS"
+   ],
+   "description": "Find and interact with UI elements via native Accessibility view tree (XPath, resource-id, accessibility-id). Invoke when user needs to locate elements, dump view hierarchy, or perform native element operations on Android/HarmonyOS devices.",
+   "size": 11901,
+   "sha256": "005b179435d95d97a49ab23f43ba4863f2d91980035f9ae9323c3e48800303c8"
+  },
+  "69e340daeb33f23f522ca150": {
+   "name": "arkts-static-compile-error-repair",
+   "dir": "references/huawei-skills/arkts-static-compile-error-repair",
+   "tags": [
+    "ArkTS"
+   ],
+   "description": "当需要通过arkts-sta编译错误来修复源代码时调用这个Skill。",
+   "size": 69578,
+   "sha256": "334992b263a7c84d31535b0084375b3e865ef822553d108cb01b1b7ba8f3dc8b"
+  },
+  "69f078ee23e9807a198f2821": {
+   "name": "harmony-router",
+   "dir": "references/huawei-skills/harmony-router",
+   "tags": [
+    "ArkTS",
+    "ArkUI"
+   ],
+   "description": "HarmonyOS ArkTS 全栈开发核心技能：语法规范、30+ Kit API、组件用法、构建修复、设备验证、安全重构、知识搜索。\n\n安装后需确保 MCP 前置条件已满足（见下方「MCP 前置条件」）。\n\nTriggers: HarmonyOS, ArkTS, 鸿蒙, 鸿蒙开发, ArkUI, @ohos, 声明式UI, HAP, HAR, hvigorw, DevEco\n",
+   "size": 178976,
+   "sha256": "740cdff6c333f9d3b99fa08832bafc94942ad1ba8ebc229ca2c1fc9f6b601123"
+  },
+  "69fd41df6f6f956d81b73b52": {
+   "name": "arkts-sta-spec",
+   "dir": "references/huawei-skills/arkts-sta-spec",
+   "tags": [
+    "ArkTS"
+   ],
+   "description": "ArkTS static language specification reference for OpenHarmony. Use this skill when reading or writing ArkTS (.ets), explaining ArkTS type-system and static-semantics rules, validating code against the ArkTS spec, investigating ArkTS compile-time behavior, or comparing ArkTS with TypeScript migration guidance.",
+   "size": 237476,
+   "sha256": "620d73394c942a90c85b367000abce3543c974d1f3b016a574827cfa9c09e4bb"
+  },
+  "6a7c1b1312243475c811a545": {
+   "name": "harmonyos-ui-verify",
+   "dir": "references/huawei-skills/harmonyos-ui-verify",
+   "tags": [
+    "ArkUI",
+    "ArkTS"
+   ],
+   "description": "鸿蒙应用 UI 效果验证框架：需求/设计稿/App 三方比对，hdc 确定性操作 + Midscene 语义断言 + 截图复核的混合执行，输出差异点/证据/可疑问题结构化结论。用于鸿蒙应用 UI 验证、视觉走查、交互与状态检查、AI 生成应用验收。",
+   "size": 252031,
+   "sha256": "184613e8a7745f7f399b65b73b84fbaaf564b32d5577baaf9f4a578cc65687af"
+  },
+  "6a115871071d0d29982eec7e": {
+   "name": "arkts-performance",
+   "dir": "references/huawei-skills/arkts-performance",
+   "tags": [
+    "ArkTS"
+   ],
+   "description": "Use when reviewing or modifying HarmonyOS/OpenHarmony ArkTS language and runtime performance issues, including type shape, data shape, hot loops, module loading, TaskPool, Worker, Sendable, ASON, const conversion, and Huawei ArkTS high-performance guidance.",
+   "size": 146540,
+   "sha256": "be2b18e9264b4bc584a511d4edfb8d36ff8343a36a7209fd3ef0839c13799b12"
+  },
+  "69f07c56eb33f23f522ca18b": {
+   "name": "harmony-flow",
+   "dir": "references/huawei-skills/harmony-flow",
+   "tags": [
+    "ArkTS",
+    "ArkUI"
+   ],
+   "description": "HarmonyOS 单端开发流水线：analyse → plan → coding。专为已在鸿蒙项目目录下工作的场景设计，支持正向开发和翻译开发两种模式。\n\n执行流程：\n1. 自动检查/执行 init.sh 初始化\n2. 调用 Skill(harmony-router) 加载路由规则\n3. 执行 analyse 阶段生成技术方案（读取 references/harmony-analyse/SKILL.md）\n4. 执行 plan 阶段生成实施计划（读取 references/harmony-plan/SKILL.md）\n5. 执行 coding 阶段完成编码（读取 references/harmony-coding/SKILL.md）\n6. 构建验证 + UI 验证\n\nTriggers: 鸿蒙流水线, harmony pipeline, 鸿蒙开发流程, 技术方案, 实施计划, 编码实施\n",
+   "size": 26239,
+   "sha256": "02efcd249458ef61e9fa672b17417eefc0f5e4661ad76a37466e0a3ae9efd214"
+  },
+  "6a62da94450ba62d8001831f": {
+   "name": "accessibility-adaptation",
+   "dir": "references/huawei-skills/accessibility-adaptation",
+   "tags": [
+    "ArkUI",
+    "ArkTS"
+   ],
+   "description": "帮助鸿蒙开发者高效实现应用无障碍功能，覆盖组件语义标注、屏幕朗读适配、无障碍静态检测和导航可达性四大核心领域。适用于新项目从零接入无障碍、存量项目无障碍合规审计、读屏功能专项适配、应用上架前无障碍自检。",
+   "size": 40036,
+   "sha256": "753712fdc54b4a8edc4702444b873d938f90878944ca026a7b9f461d74dac037"
+  },
+  "6a8810452fd23c3997b4ae80": {
+   "name": "codecheck-orchestrator",
+   "dir": "references/huawei-skills/codecheck-orchestrator",
+   "tags": [
+    "ArkTS"
+   ],
+   "description": "分析识别业务模块的架构设计、分层设计、业务流程和代码中存在设计和逻辑问题",
+   "size": 352781,
+   "sha256": "fedde86bf59be78046d712bb925c375df00eeac99b3e56d00fe1d23dcea72e30"
+  },
+  "6a320b6e587f977f23cd00c6": {
+   "name": "harmonyos-performance-guide",
+   "dir": "references/huawei-skills/harmonyos-performance-guide",
+   "tags": [
+    "ArkUI",
+    "ArkTS"
+   ],
+   "description": "鸿蒙系统性能优化指导与性能分析工作流skill。覆盖手机/平板等产品，当用户提及性能分析、优化、卡顿、丢帧、冷启动、内存泄漏、启动慢、CPU过高、功耗、帧率低、白屏、响应慢等性能相关关键词时自动激活。提供场景选择、CLI工具推荐、分析工作流、知识检索、trace解析、报告生成等能力。支持基础版(手动引导)和增强版(AI自动化CLI采集)。支持第三方应用黑盒分析。",
+   "size": 941656,
+   "sha256": "6fa3b04e55e88b78a8a2a97fc915e0bd597a8ff552732a2a115c882ada5c677d"
+  },
+  "6a8810d52fd23c3997b4ae84": {
+   "name": "api-scanner",
+   "dir": "references/huawei-skills/api-scanner",
+   "tags": [
+    "ArkTS"
+   ],
+   "description": "分析识别业务模块的架构设计、分层设计、业务流程和代码中存在设计和逻辑问题",
+   "size": 352781,
+   "sha256": "fedde86bf59be78046d712bb925c375df00eeac99b3e56d00fe1d23dcea72e30"
+  },
+  "69fab51c36b4ba564cf3cdd9": {
+   "name": "arkts-skill",
+   "dir": "references/huawei-skills/arkts-skill",
+   "tags": [
+    "ArkTS"
+   ],
+   "description": "Retrieve grounded ArkTS references for pure non-UI ArkTS work and ArkTS API usage. Use this skill whenever the user is writing, reviewing, testing, validating, running, or debugging ArkTS code and the answer should be backed by repository sources such as `docs/ArkTS-Language-Guide/`, `docs/ArkTS-API-Reference/`, and the linter-derived `docs/linter/ArkTS_Syntax_Knowledge_From_Linter.md` instead of model memory. This skill is especially useful for syntax rules, ArkTS-specific restrictions, API/module/member lookup, common-library usage, runnable example lookup, snippet validation context, and figuring out which repository section to trust before suggesting code or fixes.",
+   "size": 1171732,
+   "sha256": "933d103bad4660f495c4930f7e56fba4ae9c9644dfe97ddb83da3d37f4531e45"
+  },
+  "6a460f357f808148f4e60ece": {
+   "name": "trace-intent-understanding-max",
+   "dir": "references/huawei-skills/trace-intent-understanding-max",
+   "tags": [
+    "OpenHarmony",
+    "OpenHarmony性能技能库"
+   ],
+   "description": "鸿蒙应用 Trace/Perf/CPU Profile 数据意图理解与查询。从 trace、perf 采样、CPU Profile 数据中按用户意图提取关键事件、调用栈、性能指标，支持冷启动、热启动、页面切换、卡顿、掉帧、内存等性能场景分析。当用户提供 trace 数据库、perf 数据库、CPU Profile 文件或描述性能分析需求（如\"分析冷启动耗时\"、\"找出卡顿原因\"、\"分析 perf 热点函数\"）时使用。",
+   "size": 1377616,
+   "sha256": "bb09111983328f3bcd40f9bec42e20dff7bcd6ca1fa3538ac6d5f32c0a59e012"
+  },
+  "6a79317e12243475c811a4fd": {
+   "name": "memory-anti-regression",
+   "dir": "references/huawei-skills/memory-anti-regression",
+   "tags": [
+    "OpenHarmony性能技能库"
+   ],
+   "description": "HarmonyOS 应用内存防劣化分析。对同一应用的两个版本分别执行数据采集和归因分析，通过 topdown 对比识别劣化源，对 Top10 劣化 SO 逐个按其 type_name 分发深度分析步骤 3/4/5（该 SO 含 ARKTS_HEAP→3+4，不全是 SO_SIZE/HAP→4，含 SO_SIZE/HAP→5，全是 SO_SIZE/HAP→仅5），综合输出总体防劣化分析报告。当用户提到采集htrace、分析内存、冷启动、内存对比、防劣化、topdown、汇总表、showmap、smaps、hidumper、hiprofiler、内存归因、内存劣化、heapsnapshot、nativehook、arkts heap、native heap、版本对比时使用此技能。",
+   "size": 483794,
+   "sha256": "98e25cf9b9b27b3adaa2d18257962b6e551e5152b25574723428e73c898ec41e"
+  },
+  "6a45dd95763c7201b1173d22": {
+   "name": "startup-task-defer-opt",
+   "dir": "references/huawei-skills/startup-task-defer-opt",
+   "tags": [
+    "OpenHarmony",
+    "OpenHarmony性能技能库"
+   ],
+   "description": "  HarmonyOS 冷启动任务延迟优化工具。自动发现任意 HarmonyOS 应用的启动框架和任务注册方式，   先建立项目代码索引和架构 wiki，再结合 trace 数据分析冷启动区间内的任务耗时，   识别可后移的启动逻辑，给出逐任务修改方案和收益估算。当用户提到\"启动任务延迟\"、\"冷启动优化\"、   \"任务后移\"、\"deferTask\"、\"onLaunchFinish 延迟\"或提供 trace 数据要求优化启动性能时使用。",
+   "size": 22266979,
+   "sha256": "0f4c27c45761171e4935d50832c599d809aa8785b2c510d5108356af30f5d3b3"
+  }
+ },
+ "total": 146
+}

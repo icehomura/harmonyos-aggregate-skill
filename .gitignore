@@ -1,0 +1,53 @@
+# ─────────────────────────────────────────────────────────────
+# 构建产物 / 生成目录（永不提交）
+# ─────────────────────────────────────────────────────────────
+node_modules/
+oh_modules/
+build/
+dist/
+.cache/
+*.log
+.DS_Store
+Thumbs.db
+
+# ─────────────────────────────────────────────────────────────
+# 本地知识库中间产物 —— 刻意不入库
+#
+# 原因：这些是从官方 API 同步下来的**原始文件**，共 4 万+ 个 Markdown。
+# 直接提交会造成严重碎片化：每个文件一个 blob + tree entry，
+# clone 极慢、diff 与 review 不可读，不符合开源项目规范。
+#
+# 正确做法：只提交构建后的**单个 SQLite 数据库**（用 Git LFS 管理）。
+# 需要原始文件时，运行：
+#   node scripts/sync-huawei-docs.mjs      # 重新同步（约 10 分钟）
+#   node scripts/build-doc-index.mjs       # 重建索引
+# ─────────────────────────────────────────────────────────────
+references/huawei-docs/
+references/huawei-skills/
+references/deveco-docs/
+
+# manifest 体积大且可由 db 的 meta 表替代
+references/huawei-docs-manifest.json
+
+# 抓取过程的失败记录
+failed.jsonl
+sitemap-doc.xml
+
+# ─────────────────────────────────────────────────────────────
+# 以下目录/文件**应当提交**（技能包本体）：
+#   SKILL.md  AGENTS.md  skill.yaml
+#   references/*.md                      手写的规范文档
+#   references/*/                        手写的分技能
+#   references/huawei-skills-index.json  官方 skill 索引（小）
+#   scripts/*.mjs                        同步与查询脚本
+#   references/huawei-docs.db            ← Git LFS 管理
+# ─────────────────────────────────────────────────────────────
+
+# 环境与编辑器
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+*.swp
+*~

@@ -1,0 +1,38 @@
+# ─────────────────────────────────────────────────────────────
+# Git LFS —— 大文件用指针替代，避免仓库膨胀
+#
+# 首次使用需安装并初始化：
+#   git lfs install
+#
+# 克隆后若拿到的是指针文件（几十字节的文本），运行：
+#   git lfs pull
+# ─────────────────────────────────────────────────────────────
+
+# 文档索引数据库（数十万篇文档的全文索引，单文件可达数百 MB）
+*.db       filter=lfs diff=lfs merge=lfs -text
+
+# 其他可能的大二进制
+*.zip      filter=lfs diff=lfs merge=lfs -text
+*.7z       filter=lfs diff=lfs merge=lfs -text
+*.tar.gz   filter=lfs diff=lfs merge=lfs -text
+*.png      filter=lfs diff=lfs merge=lfs -text
+*.jpg      filter=lfs diff=lfs merge=lfs -text
+*.jpeg     filter=lfs diff=lfs merge=lfs -text
+*.gif      filter=lfs diff=lfs merge=lfs -text
+*.webp     filter=lfs diff=lfs merge=lfs -text
+
+# ─────────────────────────────────────────────────────────────
+# 文本类文件明确标记为非二进制，保证 diff 正常
+# ─────────────────────────────────────────────────────────────
+*.md       text
+*.mjs      text
+*.ts       text
+*.yaml     text
+*.yml      text
+*.json     text
+*.json5    text
+.gitignore text
+
+# 说明：数据库文件走 LFS 后，普通 git diff 只显示指针变化（符合预期）。
+# 若需查看索引内容差异，用 `git lfs diff` 或直接查询数据库：
+#   node scripts/search-docs.mjs --stats
